@@ -7,7 +7,7 @@ export default function Home() {
   const mapRef = useRef<HTMLElement | any | null>(null)
   const markerRef = useRef<naver.maps.Marker | null>(null)
   const selectedMarker = useRef<any | null>(null)
-  const itemRef = useRef<any | null>(null)
+  // const itemRef = useRef<any | null>(null)
 
   const [storeList, setStoreList] = useState<storeInfo[]>(MapSample.data.results)
 
@@ -105,9 +105,6 @@ export default function Home() {
         if (selectedMarker.current) {
           selectedMarker.current.setMap(null)
         }
-        // selectedMarker.current = marker.setIcon({
-        //   content: selectedMarkerHtml(item)
-        // })
         selectedMarker.current = new naver.maps.Marker({
           icon: {
             content: selectedMarkerHtml(item)
@@ -122,6 +119,32 @@ export default function Home() {
     [mapRef, markerRef]
   )
 
+  // 매장 리스트 클릭 이벤트
+  const storeClickEvent = useCallback(
+    (item: storeInfo) => {
+      if (selectedMarker.current) {
+        selectedMarker.current.setMap(null)
+      }
+      selectedMarker.current = new naver.maps.Marker({
+        icon: {
+          content: selectedMarkerHtml(item)
+        },
+        position: new naver.maps.LatLng(+item.map_cood_lat, +item.map_cood_lgt),
+        map: mapRef.current,
+        title: item.store_nm
+      })
+      const mapLatLng = new naver.maps.LatLng(+item.map_cood_lat, +item.map_cood_lgt)
+      mapRef.current.panTo(mapLatLng)
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [mapRef, markerRef]
+  )
+
+  // 겹침 마커 처리
+  // const recognizer = new MarkerOverlappingRecognizer({
+
+  // })
+
   return (
     <>
       <Head>
@@ -131,7 +154,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div style={{ width: '80vw', height: '100vh' }} ref={mapRef} id="map"></div>
+        <div className={styles.container}>
+          <div style={{ width: '80vw', height: '100vh' }} ref={mapRef} id="map"></div>
+          {/* 매장 리스트 뿌리는 사이드바 */}
+          <div className={styles.storeList}>
+            {storeList.map((item) => (
+              <div key={item.store_nm} className={styles.storeItem} onClick={() => storeClickEvent(item)}>
+                {item.store_nm}
+              </div>
+            ))}
+          </div>
+        </div>
       </main>
     </>
   )
