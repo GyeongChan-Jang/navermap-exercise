@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import MapSample from '../MapSample.json'
+import styles from '../public/styles/marker.module.css'
 
 export default function Home() {
   const mapRef = useRef<HTMLElement | any | null>(null)
@@ -22,6 +23,7 @@ export default function Home() {
   const markerHtml = (item: storeInfo) => {
     return /* html */ `
     <div
+      class=${styles.marker}
       style="position:relative; height: 27px; line-height: 19px; font-weight:500; font-size:13px; padding:4px 17px; border:solid 1px #222; box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16); background-color: #fff; border-radius: 4px;"
     >
       <span>
