@@ -1,11 +1,14 @@
 import Head from 'next/head'
-import { useCallback, useEffect, useRef } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import MapSample from '../MapSample.json'
 
 export default function Home() {
   const mapRef = useRef<HTMLElement | any | null>(null)
   const markerRef = useRef<naver.maps.Marker | null>(null)
   const selectedMarker = useRef<any | null>(null)
+  const itemRef = useRef<any | null>(null)
+
+  const [storeList, setStoreList] = useState<storeInfo[]>(MapSample.data.results)
 
   interface storeInfo {
     store_nm: string
@@ -13,6 +16,7 @@ export default function Home() {
     ceo_no: string
     map_cood_lat: string
     map_cood_lgt: string
+    marker?: any
   }
 
   const markerHtml = (item: storeInfo) => {
@@ -65,6 +69,20 @@ export default function Home() {
         title: item.store_nm
       })
       markerClickEvent(markerRef.current, item)
+
+      // 매장 리스트에 마커 속성 넣어줌
+      setStoreList((prev) => {
+        return prev.map((prevItem) => {
+          if (prevItem.store_nm === item.store_nm) {
+            return {
+              ...prevItem,
+              marker: markerRef.current
+            }
+          }
+          return prevItem
+        })
+      })
+      console.log(storeList)
       return markerRef.current
     })
     // eslint-disable-next-line react-hooks/exhaustive-deps
