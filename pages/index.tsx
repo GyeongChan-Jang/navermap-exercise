@@ -81,10 +81,22 @@ export default function Home() {
         position: naver.maps.Position.TOP_RIGHT
       })
       mapChangeButtonRef.current.setMap(mapRef.current)
+
       // 커스텀컨트롤 클릭 이벤트
-      const mapChangeButton = document.getElementById('mapChangeButton')
-      naver.maps.Event.addDOMListener(mapChangeButton!, 'click', () => {
-        router.push('/map')
+      const flagButton = document.getElementById('flag-analysis')
+      const rankingButton = document.getElementById('ranking-in-map')
+      const salesButton = document.getElementById('sales-distribution')
+
+      naver.maps.Event.addDOMListener(flagButton!, 'click', () => {
+        router.push('/flag-analysis')
+      })
+
+      naver.maps.Event.addDOMListener(rankingButton!, 'click', () => {
+        router.push('/ranking-in-map')
+      })
+
+      naver.maps.Event.addDOMListener(salesButton!, 'click', () => {
+        router.push('/sales-distribution')
       })
     })
   }, [])
