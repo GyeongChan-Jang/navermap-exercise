@@ -1,15 +1,81 @@
-.container {
-  width: 100%;
-  height: 100%;
-  background-color: #f2f2f2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.bubbleMarker {
+  position: relative;
+  display: inline-block;
+  padding: 4px 17px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19px;
+  height: 27px;
+  border: solid 1px #222;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  white-space: noWrap;
 }
 
-.marker {
-  color: blue;
+.bubbleMarkerBottomOuter {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 10px);
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #222;
+  border-bottom: 0;
+  margin-bottom: -9px;
 }
 
-.storeItem {
+.bubbleMarkerBottomInner {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 9px);
+  width: 0;
+  height: 0;
+  border: 9px solid transparent;
+  border-top-color: #fff;
+  border-bottom: 0;
+  margin-bottom: 2px;
+}
+
+.selectedBubbleMarker {
+  border: solid 1px #6659ee;
+  background-color: #bbb5f8;
+  position: relative;
+  display: inline-block;
+  padding: 4px 17px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19px;
+  height: 27px;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  white-space: noWrap;
+}
+
+.selectedBubbleMarkerBottomOuter {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 10px);
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #6659ee;
+  border-bottom: 0;
+  margin-bottom: -9px;
+}
+
+.selectedBubbleMarkerBottomInner {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 9px);
+  width: 0;
+  height: 0;
+  border: 9px solid transparent;
+  border-top-color: #bbb5f8;
+  border-bottom: 0;
+  margin-bottom: 2px;
 }
