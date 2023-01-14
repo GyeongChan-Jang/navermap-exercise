@@ -86,20 +86,18 @@ export default function Home() {
       const flagButton = document.getElementById('flag-analysis')
       const rankingButton = document.getElementById('ranking-in-map')
       const salesButton = document.getElementById('sales-distribution')
-
-      naver.maps.Event.addDOMListener(flagButton!, 'click', () => {
-        router.push('/flag-analysis')
-      })
-
-      naver.maps.Event.addDOMListener(rankingButton!, 'click', () => {
-        router.push('/ranking-in-map')
-      })
-
-      naver.maps.Event.addDOMListener(salesButton!, 'click', () => {
-        router.push('/sales-distribution')
-      })
+      mapChangeHandler([flagButton!, rankingButton!, salesButton!])
     })
   }, [])
+
+  const mapChangeHandler = (elements: HTMLElement[]) => {
+    if (!elements) return
+    elements.map((element) => {
+      naver.maps.Event.addDOMListener(element, 'click', () => {
+        router.push(element.id)
+      })
+    })
+  }
 
   // 마커 띄우기
   useEffect(() => {
