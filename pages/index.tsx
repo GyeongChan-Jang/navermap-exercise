@@ -3,6 +3,9 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import MapSample from '../MapSample.json'
 import styles from '../public/styles/marker.module.css'
 import { MainMarker } from '../components/marker/MainMarker'
+import { SelectedMainMarker } from '../components/marker/SelectedMainMarker'
+import screenStyles from '../public/styles/screenLayout.module.css'
+import { MapChangeButton } from '../components/MapChangeButton'
 
 export interface storeInfo {
   store_nm: string
@@ -16,29 +19,83 @@ export interface storeInfo {
 export default function Home() {
   const mapRef = useRef<HTMLElement | any | null>(null)
   const markerRef = useRef<naver.maps.Marker | null>(null)
-  const selectedMarker = useRef<any | null>(null)
-  // const itemRef = useRef<any | null>(null)
+  const selectedMarker = useRef<naver.maps.Marker | null>(null)
+  const mapChangeButtonRef = useRef<any | null>(null)
 
   const [storeList, setStoreList] = useState<storeInfo[]>(MapSample.data.results)
+
+  // 마커 클릭 이동 이벤트 함수
+  const markerClickHandler = (marker: naver.maps.Marker, item: storeInfo, name: string) => {
+    naver.maps.Event.addListener(marker, 'click', (e: naver.maps.MapEventListener) => {
+      // 마커로 이동
+      const mapLatLng = new naver.maps.LatLng(+item.map_cood_lat, +item.map_cood_lgt)
+      mapRef.current.panTo(mapLatLng)
+
+      // 마커 변경
+      if (!selectedMarker.current || (selectedMarker.current !== marker && name !== undefined)) {
+        // 클릭된 마커 객체가 null이 아니면 기존 마커를 다시 원래대로
+        if (selectedMarker.current) {
+          // 클릭된 마커의 이름을 찾아서 마커 타이틀 유지
+          const selectedName = MapSample.data.results.find(
+            (item: storeInfo) => item.store_nm === selectedMarker.current?.getTitle()
+          )?.store_nm
+
+          selectedMarker.current.setIcon({
+            content: MainMarker(selectedName!)
+          })
+        }
+
+        // 클릭된 마커 객체를 현재 클릭된 마커로 변경
+        marker.setIcon({
+          content: SelectedMainMarker(item)
+        })
+
+        selectedMarker.current = marker
+        mapRef.current.updateBy(mapLatLng, 15)
+      }
+    })
+  }
+
+  // 스토어 리스트 클릭 이동 이벤트 함수
+  const storeListClickHandler = (store: storeInfo) => {
+    storeList.find((item) => item.store_nm === store.store_nm)?.marker.trigger('click')
+  }
 
   // 지도 띄우기
   useEffect(() => {
     mapRef.current = new naver.maps.Map('map', {
       center: new naver.maps.LatLng(37.5657, 126.9769),
-      zoom: 10
+      zoom: 12,
+      disableKineticPan: false,
+      mapDataControl: false
     })
+    
+    // 지도 변경 버튼
+    if (!mapRef.current) return
+    naver.maps.Event.once(mapRef.current, 'init', () => {
+      mapChangeButtonRef.current = new naver.maps.CustomControl(MapChangeButton(),{
+        position: naver.maps.Position.TOP_RIGHT
+      })
+      mapChangeButtonRef.current.setMap(mapRef.current)
+    })
+
   }, [])
 
   // 마커 띄우기
   useEffect(() => {
-    MapSample.data.results.map((marker: storeInfo) => {
+    MapSample.data.results.map((item: storeInfo) => {
       markerRef.current = new naver.maps.Marker({
-        position: new naver.maps.LatLng(+marker.map_cood_lat, +marker.map_cood_lgt),
+        position: new naver.maps.LatLng(+item.map_cood_lat, +item.map_cood_lgt),
         map: mapRef.current,
         icon: {
-          content: MainMarker(marker)
-        }
+          content: MainMarker(item.store_nm)
+        },
+        title: item.store_nm
       })
+      markerClickHandler(markerRef.current, item, item.store_nm)
+
+      // 데이터에 marker 속성을 만들고 생성된 마커 객체를 넣어줌
+      item.marker = markerRef.current
     })
   }, [])
 
@@ -51,14 +108,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className={styles.container}>
+        <div className={screenStyles.container}>
           {/* 지도 */}
           <div style={{ width: '80vw', height: '100vh' }} ref={mapRef} id="map"></div>
           {/* 매장 리스트 뿌리는 사이드바 */}
-          <div className={styles.storeList}>
-            {storeList.map((item) => (
-              <div key={item.store_nm} className={styles.storeItem}>
-                {item.store_nm}
+          <div className={screenStyles.storeList}>
+            {storeList.map((store) => (
+              <div key={store.store_nm} className={screenStyles.storeItem} onClick={() => storeListClickHandler(store)}>
+                {store.store_nm}
               </div>
             ))}
           </div>
