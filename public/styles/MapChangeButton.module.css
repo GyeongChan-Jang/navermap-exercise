@@ -7,8 +7,7 @@
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   border: solid 1px #eee;
   display: flex;
-  /* justify-content: space-around; */
-  /* padding: 0 15px; */
+  /* padding: 3px 0; */
 }
 
 .buttonContainer {
@@ -21,25 +20,43 @@
   align-items: center;
 }
 
-.buttonContainer:nth-of-type(1) {
-  /* border-right: 1px solid #d9d9d9; */
-}
-
 .buttonContainer:nth-of-type(2) {
   border-left: 1px solid #d9d9d9;
-  border-right: 1px solid #d9d9d9;
 }
 
-.buttonContainer:hover {
-  background-color: red;
+.buttonContainer:nth-of-type(3) {
+  border-left: 1px solid #d9d9d9;
 }
 
 .text {
   font-weight: bold;
 }
 
-.line {
-  width: 1px;
-  height: 39px;
-  background-color: #d9d9d9;
+.selectedFlag {
+  outline: 3px solid #6659ee;
+  border-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 33px;
+  margin-top: 3px;
+  z-index: 1;
+  color: #6659ee;
+}
+
+.selectedRanking {
+  outline: 3px solid #6659ee;
+  height: 33px;
+  margin-top: 3px;
+  border: 0 !important;
+  z-index: 1;
+  color: #6659ee;
+}
+
+.selectedSales {
+  border: 3px solid #6659ee !important;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 33px;
+  color: #6659ee;
 }
