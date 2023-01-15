@@ -7,7 +7,6 @@ const FlagAnalysis = () => {
   const mapChangeButtonRef = useRef<any | null>(null)
 
   const router = useRouter()
-  console.log(router)
 
   // 지도 띄우기
   useEffect(() => {

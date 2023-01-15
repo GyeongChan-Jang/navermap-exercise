@@ -7,31 +7,34 @@ import { SelectedMainMarker } from '../components/marker/SelectedMainMarker'
 import screenStyles from '../public/styles/screenLayout.module.css'
 import { MapChangeButton } from '../components/MapChangeButton'
 import { useRouter } from 'next/router'
+import PuradakData from '../puradakData.json'
 
 export interface storeInfo {
   store_nm: string
   store_status_str: string
   ceo_no: string
-  map_cood_lat: string
-  map_cood_lgt: string
+  map_cood_lat: string | null
+  map_cood_lgt: string | null
   marker?: any
 }
 
 export default function Home() {
   const router = useRouter()
+  console.log(PuradakData)
+  console.log(MapSample)
 
   const mapRef = useRef<HTMLElement | any | null>(null)
   const markerRef = useRef<naver.maps.Marker | null>(null)
   const selectedMarker = useRef<naver.maps.Marker | null>(null)
   const mapChangeButtonRef = useRef<any | null>(null)
 
-  const [storeList, setStoreList] = useState<storeInfo[]>(MapSample.data.results)
+  const [storeList, setStoreList] = useState<storeInfo[]>(PuradakData.data.results)
 
   // 마커 클릭 이동 이벤트 함수
   const markerClickHandler = (marker: naver.maps.Marker, item: storeInfo, name: string) => {
     naver.maps.Event.addListener(marker, 'click', (e: naver.maps.MapEventListener) => {
       // 마커로 이동
-      const markerLatLng = new naver.maps.LatLng(+item.map_cood_lat, +item.map_cood_lgt)
+      const markerLatLng = new naver.maps.LatLng(+item.map_cood_lat!, +item.map_cood_lgt!)
       mapRef.current.setZoom(14)
       mapRef.current.panTo(markerLatLng)
 
@@ -40,7 +43,7 @@ export default function Home() {
         // 클릭된 마커 객체가 null이 아니면 기존 마커를 다시 원래대로
         if (selectedMarker.current) {
           // 클릭된 마커의 이름을 찾아서 마커 타이틀 유지
-          const selectedName = MapSample.data.results.find(
+          const selectedName = PuradakData.data.results.find(
             (item: storeInfo) => item.store_nm === selectedMarker.current?.getTitle()
           )?.store_nm
 
@@ -101,9 +104,9 @@ export default function Home() {
 
   // 마커 띄우기
   useEffect(() => {
-    MapSample.data.results.map((item: storeInfo) => {
+    PuradakData.data.results.map((item: storeInfo) => {
       markerRef.current = new naver.maps.Marker({
-        position: new naver.maps.LatLng(+item.map_cood_lat, +item.map_cood_lgt),
+        position: new naver.maps.LatLng(+item.map_cood_lat!, +item.map_cood_lgt!),
         map: mapRef.current,
         icon: {
           content: MainMarker(item.store_nm)
@@ -130,8 +133,8 @@ export default function Home() {
           <div style={{ width: '80vw', height: '100vh' }} ref={mapRef} id="map"></div>
           {/* 매장 리스트 뿌리는 사이드바 */}
           <div className={screenStyles.storeList}>
-            {storeList.map((store) => (
-              <div key={store.store_nm} className={screenStyles.storeItem} onClick={() => storeListClickHandler(store)}>
+            {storeList.map((store, index) => (
+              <div key={index} className={screenStyles.storeItem} onClick={() => storeListClickHandler(store)}>
                 {store.store_nm}
               </div>
             ))}

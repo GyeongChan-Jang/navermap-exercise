@@ -1,0 +1,5114 @@
+{
+  "code": "200",
+  "status": true,
+  "message": "공통 가맹점목록 조회 성공",
+  "details": "",
+  "data": {
+    "results": [
+      {
+        "store_nm": "가양",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "8066400360",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "가평설악",
+        "store_status_str": "",
+        "ceo_no": "3256800331",
+        "map_cood_lat": "37.6771693543599",
+        "map_cood_lgt": "127.488312199774"
+      },
+      {
+        "store_nm": "가평청평",
+        "store_status_str": "",
+        "ceo_no": "3721301637",
+        "map_cood_lat": "37.7374576076348",
+        "map_cood_lgt": "127.42315066018"
+      },
+      {
+        "store_nm": "가평현리",
+        "store_status_str": "",
+        "ceo_no": "5333301002",
+        "map_cood_lat": "37.8174421014783",
+        "map_cood_lgt": "127.350165131756"
+      },
+      {
+        "store_nm": "갈현",
+        "store_status_str": "",
+        "ceo_no": "4132700727",
+        "map_cood_lat": "37.6161068148183",
+        "map_cood_lgt": "126.913628586325"
+      },
+      {
+        "store_nm": "강릉교동",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2540501746",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "강릉유천",
+        "store_status_str": "",
+        "ceo_no": "7136000702",
+        "map_cood_lat": "37.7570985645131",
+        "map_cood_lgt": "128.870694938482"
+      },
+      {
+        "store_nm": "강릉입암노암",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2634600841",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "강릉포남",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "7562301135",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "강서구청",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "3916000588",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "강원사북",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "5395600640",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "강원양구",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "6334700713",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "강원홍천",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "8210302459",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "강원화천",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "7781201333",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "개봉1호",
+        "store_status_str": "",
+        "ceo_no": "2227700126",
+        "map_cood_lat": "37.5002628158104",
+        "map_cood_lgt": "126.849166234366"
+      },
+      {
+        "store_nm": "거여",
+        "store_status_str": "",
+        "ceo_no": "4766800342",
+        "map_cood_lat": "37.4956804833188",
+        "map_cood_lgt": "127.145076879154"
+      },
+      {
+        "store_nm": "거제고현",
+        "store_status_str": "",
+        "ceo_no": "6431301301",
+        "map_cood_lat": "34.8823772165858",
+        "map_cood_lgt": "128.626309312872"
+      },
+      {
+        "store_nm": "거제아주",
+        "store_status_str": "",
+        "ceo_no": "4730601664",
+        "map_cood_lat": "34.8657586873509",
+        "map_cood_lgt": "128.690636937464"
+      },
+      {
+        "store_nm": "거제옥포",
+        "store_status_str": "",
+        "ceo_no": "8230501921",
+        "map_cood_lat": "34.8915827388179",
+        "map_cood_lgt": "128.694769754874"
+      },
+      {
+        "store_nm": "경남거창",
+        "store_status_str": "",
+        "ceo_no": "6110549526",
+        "map_cood_lat": "35.6890249583462",
+        "map_cood_lgt": "127.906075734433"
+      },
+      {
+        "store_nm": "경남고성",
+        "store_status_str": "",
+        "ceo_no": "6234700579",
+        "map_cood_lat": "34.9645918528954",
+        "map_cood_lgt": "128.320296479414"
+      },
+      {
+        "store_nm": "경남남해",
+        "store_status_str": "",
+        "ceo_no": "6752101147",
+        "map_cood_lat": "34.8391992118102",
+        "map_cood_lgt": "127.894781132218"
+      },
+      {
+        "store_nm": "경남밀양",
+        "store_status_str": "",
+        "ceo_no": "5200102756",
+        "map_cood_lat": "35.4831076936359",
+        "map_cood_lgt": "128.748841328026"
+      },
+      {
+        "store_nm": "경남사천",
+        "store_status_str": "",
+        "ceo_no": "8694900354",
+        "map_cood_lat": "35.0760456701828",
+        "map_cood_lgt": "128.084457214753"
+      },
+      {
+        "store_nm": "경남삼천포",
+        "store_status_str": "",
+        "ceo_no": "8832500150",
+        "map_cood_lat": "34.9356323233581",
+        "map_cood_lgt": "128.087416109636"
+      },
+      {
+        "store_nm": "경남함안",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "6935100707",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "경남함양",
+        "store_status_str": "",
+        "ceo_no": "3763400824",
+        "map_cood_lat": "35.518244335273",
+        "map_cood_lgt": "127.726893513178"
+      },
+      {
+        "store_nm": "경북문경",
+        "store_status_str": "",
+        "ceo_no": "3626500270",
+        "map_cood_lat": "36.5863492778469",
+        "map_cood_lgt": "128.184474703284"
+      },
+      {
+        "store_nm": "경북신도청",
+        "store_status_str": "",
+        "ceo_no": "1512600652",
+        "map_cood_lat": "36.576945696668",
+        "map_cood_lgt": "128.480392851107"
+      },
+      {
+        "store_nm": "경북영주",
+        "store_status_str": "",
+        "ceo_no": "5903400911",
+        "map_cood_lat": "36.8179868473165",
+        "map_cood_lgt": "128.604095458938"
+      },
+      {
+        "store_nm": "경북영천",
+        "store_status_str": "",
+        "ceo_no": "2232400782",
+        "map_cood_lat": "35.9824096154496",
+        "map_cood_lgt": "128.951550736062"
+      },
+      {
+        "store_nm": "경산사동계양",
+        "store_status_str": "",
+        "ceo_no": "3361002094",
+        "map_cood_lat": "35.8173080937755",
+        "map_cood_lgt": "128.751924504325"
+      },
+      {
+        "store_nm": "경산영남대",
+        "store_status_str": "",
+        "ceo_no": "1062492804",
+        "map_cood_lat": "35.8421664814275",
+        "map_cood_lgt": "128.764667713192"
+      },
+      {
+        "store_nm": "경산옥산정평",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4172564433",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "경산진량",
+        "store_status_str": "",
+        "ceo_no": "1981401827",
+        "map_cood_lat": "35.8758723964945",
+        "map_cood_lgt": "128.820211304068"
+      },
+      {
+        "store_nm": "경산하양",
+        "store_status_str": "",
+        "ceo_no": "3590302105",
+        "map_cood_lat": "35.9083451587941",
+        "map_cood_lgt": "128.814089608283"
+      },
+      {
+        "store_nm": "경주성건",
+        "store_status_str": "",
+        "ceo_no": "8642700492",
+        "map_cood_lat": "35.8398217230078",
+        "map_cood_lgt": "129.204261708383"
+      },
+      {
+        "store_nm": "경주황성",
+        "store_status_str": "",
+        "ceo_no": "2721400636",
+        "map_cood_lat": "35.8726736137752",
+        "map_cood_lgt": "129.214252260369"
+      },
+      {
+        "store_nm": "경희대",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "7212501415",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "고덕",
+        "store_status_str": "폐점",
+        "ceo_no": "7321501468",
+        "map_cood_lat": "37.5607729974014",
+        "map_cood_lgt": "127.162272437805"
+      },
+      {
+        "store_nm": "고양관산",
+        "store_status_str": "",
+        "ceo_no": "3990502112",
+        "map_cood_lat": "37.6878614",
+        "map_cood_lgt": "126.8661097"
+      },
+      {
+        "store_nm": "고양동",
+        "store_status_str": "",
+        "ceo_no": "6540401880",
+        "map_cood_lat": "37.7088880046811",
+        "map_cood_lgt": "126.902932618143"
+      },
+      {
+        "store_nm": "고양삼송",
+        "store_status_str": "",
+        "ceo_no": "6750901830",
+        "map_cood_lat": "37.6492685652801",
+        "map_cood_lgt": "126.89525766981"
+      },
+      {
+        "store_nm": "고양원당",
+        "store_status_str": "",
+        "ceo_no": "7822700884",
+        "map_cood_lat": "37.6577156699779",
+        "map_cood_lgt": "126.837863023383"
+      },
+      {
+        "store_nm": "고양원흥",
+        "store_status_str": "",
+        "ceo_no": "8133700891",
+        "map_cood_lat": "37.6486160856829",
+        "map_cood_lgt": "126.876545712025"
+      },
+      {
+        "store_nm": "고양행신",
+        "store_status_str": "",
+        "ceo_no": "5831202165",
+        "map_cood_lat": "37.614801774174",
+        "map_cood_lgt": "126.834480200094"
+      },
+      {
+        "store_nm": "고양향동",
+        "store_status_str": "",
+        "ceo_no": "4913600904",
+        "map_cood_lat": "37.6009345338191",
+        "map_cood_lgt": "126.891495844871"
+      },
+      {
+        "store_nm": "고척",
+        "store_status_str": "",
+        "ceo_no": "2722900912",
+        "map_cood_lat": "37.4997632856446",
+        "map_cood_lgt": "126.867086105636"
+      },
+      {
+        "store_nm": "공덕",
+        "store_status_str": "",
+        "ceo_no": "4763600579",
+        "map_cood_lat": "37.5541536723523",
+        "map_cood_lgt": "126.957893788452"
+      },
+      {
+        "store_nm": "공릉",
+        "store_status_str": "",
+        "ceo_no": "4673400950",
+        "map_cood_lat": "37.6259696077154",
+        "map_cood_lgt": "127.080840252739"
+      },
+      {
+        "store_nm": "과천1호",
+        "store_status_str": "",
+        "ceo_no": "2191063272",
+        "map_cood_lat": "37.4218573585963",
+        "map_cood_lgt": "126.987855284165"
+      },
+      {
+        "store_nm": "광명소하",
+        "store_status_str": "",
+        "ceo_no": "2112461700",
+        "map_cood_lat": "37.4477711420209",
+        "map_cood_lgt": "126.892192651394"
+      },
+      {
+        "store_nm": "광명역",
+        "store_status_str": "",
+        "ceo_no": "5547000397",
+        "map_cood_lat": "37.4200359072339",
+        "map_cood_lgt": "126.88918699963"
+      },
+      {
+        "store_nm": "광명철산",
+        "store_status_str": "",
+        "ceo_no": "4206300553",
+        "map_cood_lat": "37.4803608008491",
+        "map_cood_lgt": "126.864059495362"
+      },
+      {
+        "store_nm": "광명하안",
+        "store_status_str": "",
+        "ceo_no": "1023495093",
+        "map_cood_lat": "37.4596862877568",
+        "map_cood_lgt": "126.873952137541"
+      },
+      {
+        "store_nm": "광양중마",
+        "store_status_str": "",
+        "ceo_no": "3921400755",
+        "map_cood_lat": "34.9429574287885",
+        "map_cood_lgt": "127.686863325789"
+      },
+      {
+        "store_nm": "광장",
+        "store_status_str": "",
+        "ceo_no": "3191001523",
+        "map_cood_lat": "37.5406210672303",
+        "map_cood_lgt": "127.098604360419"
+      },
+      {
+        "store_nm": "광주경안",
+        "store_status_str": "",
+        "ceo_no": "4756800354",
+        "map_cood_lat": "37.4125199303408",
+        "map_cood_lgt": "127.25682102394"
+      },
+      {
+        "store_nm": "광주곤지암",
+        "store_status_str": "",
+        "ceo_no": "5840201651",
+        "map_cood_lat": "37.3495334156144",
+        "map_cood_lgt": "127.340899161259"
+      },
+      {
+        "store_nm": "광주광천",
+        "store_status_str": "",
+        "ceo_no": "4491001896",
+        "map_cood_lat": "35.1590048319996",
+        "map_cood_lgt": "126.884589660188"
+      },
+      {
+        "store_nm": "광주금호",
+        "store_status_str": "",
+        "ceo_no": "3164900656",
+        "map_cood_lat": "35.1347908450366",
+        "map_cood_lgt": "126.858478847892"
+      },
+      {
+        "store_nm": "광주두암",
+        "store_status_str": "",
+        "ceo_no": "2690801297",
+        "map_cood_lat": "35.1745759683869",
+        "map_cood_lgt": "126.932767702646"
+      },
+      {
+        "store_nm": "광주매곡오치",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "8612701056",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "광주문흥",
+        "store_status_str": "",
+        "ceo_no": "1073937389",
+        "map_cood_lat": "35.1866231679807",
+        "map_cood_lgt": "126.91777157925"
+      },
+      {
+        "store_nm": "광주백운",
+        "store_status_str": "",
+        "ceo_no": "8104400508",
+        "map_cood_lat": "35.143472697795",
+        "map_cood_lgt": "126.906109891189"
+      },
+      {
+        "store_nm": "광주봉선",
+        "store_status_str": "",
+        "ceo_no": "7470701621",
+        "map_cood_lat": "35.1300338096121",
+        "map_cood_lgt": "126.910367966591"
+      },
+      {
+        "store_nm": "광주상무",
+        "store_status_str": "",
+        "ceo_no": "8211102022",
+        "map_cood_lat": "35.153176973528",
+        "map_cood_lgt": "126.852052111156"
+      },
+      {
+        "store_nm": "광주송정",
+        "store_status_str": "",
+        "ceo_no": "4351801438",
+        "map_cood_lat": "35.1376184909663",
+        "map_cood_lgt": "126.793284442053"
+      },
+      {
+        "store_nm": "광주수완",
+        "store_status_str": "",
+        "ceo_no": "8260201588",
+        "map_cood_lat": "35.1898801087127",
+        "map_cood_lgt": "126.817718968618"
+      },
+      {
+        "store_nm": "광주시청",
+        "store_status_str": "",
+        "ceo_no": "3811101767",
+        "map_cood_lat": "37.4287804409102",
+        "map_cood_lgt": "127.258860074939"
+      },
+      {
+        "store_nm": "광주신창신가",
+        "store_status_str": "",
+        "ceo_no": "1790401676",
+        "map_cood_lat": "35.1903255009962",
+        "map_cood_lgt": "126.839323015439"
+      },
+      {
+        "store_nm": "광주신현",
+        "store_status_str": "",
+        "ceo_no": "4664200836",
+        "map_cood_lat": "37.3521082093419",
+        "map_cood_lgt": "127.165780358633"
+      },
+      {
+        "store_nm": "광주양산",
+        "store_status_str": "",
+        "ceo_no": "5025012574",
+        "map_cood_lat": "35.2080439271509",
+        "map_cood_lgt": "126.87917627295"
+      },
+      {
+        "store_nm": "광주오포",
+        "store_status_str": "",
+        "ceo_no": "3822501087",
+        "map_cood_lat": "37.3786580548155",
+        "map_cood_lgt": "127.25803250778"
+      },
+      {
+        "store_nm": "광주용봉",
+        "store_status_str": "",
+        "ceo_no": "2824400377",
+        "map_cood_lat": "35.1714294201249",
+        "map_cood_lgt": "126.902313332371"
+      },
+      {
+        "store_nm": "광주우산소촌",
+        "store_status_str": "",
+        "ceo_no": "2551402022",
+        "map_cood_lat": "35.1580885551441",
+        "map_cood_lgt": "126.811355664714"
+      },
+      {
+        "store_nm": "광주운남",
+        "store_status_str": "",
+        "ceo_no": "3205000762",
+        "map_cood_lat": "35.1753909272172",
+        "map_cood_lgt": "126.814398593052"
+      },
+      {
+        "store_nm": "광주운암",
+        "store_status_str": "",
+        "ceo_no": "2322401198",
+        "map_cood_lat": "35.1754765602233",
+        "map_cood_lgt": "126.873355855577"
+      },
+      {
+        "store_nm": "광주일곡",
+        "store_status_str": "",
+        "ceo_no": "2650601777",
+        "map_cood_lat": "35.2051188670518",
+        "map_cood_lgt": "126.89896012736"
+      },
+      {
+        "store_nm": "광주조선대",
+        "store_status_str": "",
+        "ceo_no": "3461401576",
+        "map_cood_lat": "35.1442770347039",
+        "map_cood_lgt": "126.924931788592"
+      },
+      {
+        "store_nm": "광주주월",
+        "store_status_str": "",
+        "ceo_no": "2122662900",
+        "map_cood_lat": "35.1308962557079",
+        "map_cood_lgt": "126.893875831293"
+      },
+      {
+        "store_nm": "광주진월",
+        "store_status_str": "",
+        "ceo_no": "2420902212",
+        "map_cood_lat": "35.1187742236368",
+        "map_cood_lgt": "126.897502940728"
+      },
+      {
+        "store_nm": "광주첨단",
+        "store_status_str": "",
+        "ceo_no": "1780800406",
+        "map_cood_lat": "35.215985032752",
+        "map_cood_lgt": "126.850311180034"
+      },
+      {
+        "store_nm": "광주초월",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1940302449",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "광주태전지구",
+        "store_status_str": "",
+        "ceo_no": "2722601341",
+        "map_cood_lat": "37.3944772666857",
+        "map_cood_lgt": "127.242060742761"
+      },
+      {
+        "store_nm": "광주풍암",
+        "store_status_str": "",
+        "ceo_no": "1961700731",
+        "map_cood_lat": "35.1237287763829",
+        "map_cood_lgt": "126.868484530767"
+      },
+      {
+        "store_nm": "광주하남CGV",
+        "store_status_str": "",
+        "ceo_no": "2082227532",
+        "map_cood_lat": "35.1780814",
+        "map_cood_lgt": "126.8064899"
+      },
+      {
+        "store_nm": "광주화정",
+        "store_status_str": "",
+        "ceo_no": "3954500985",
+        "map_cood_lat": "35.1503372731976",
+        "map_cood_lgt": "126.877883906114"
+      },
+      {
+        "store_nm": "구로3동",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "3183301193",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "구로5동",
+        "store_status_str": "",
+        "ceo_no": "8533700962",
+        "map_cood_lat": "37.5008487635068",
+        "map_cood_lgt": "126.889318291994"
+      },
+      {
+        "store_nm": "구리갈매",
+        "store_status_str": "",
+        "ceo_no": "8282401228",
+        "map_cood_lat": "37.6372961513621",
+        "map_cood_lgt": "127.121870240055"
+      },
+      {
+        "store_nm": "구리수택",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1020207512",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "구리인창",
+        "store_status_str": "",
+        "ceo_no": "5913600669",
+        "map_cood_lat": "37.6053803794935",
+        "map_cood_lgt": "127.133623329717"
+      },
+      {
+        "store_nm": "구미도량봉곡",
+        "store_status_str": "",
+        "ceo_no": "7145200791",
+        "map_cood_lat": "36.1395103736592",
+        "map_cood_lgt": "128.316976512679"
+      },
+      {
+        "store_nm": "구미상모사곡",
+        "store_status_str": "",
+        "ceo_no": "4900401985",
+        "map_cood_lat": "36.0945207094211",
+        "map_cood_lgt": "128.358629731997"
+      },
+      {
+        "store_nm": "구미옥계",
+        "store_status_str": "",
+        "ceo_no": "8311701570",
+        "map_cood_lat": "36.1376412246337",
+        "map_cood_lgt": "128.42539492468"
+      },
+      {
+        "store_nm": "구미진평",
+        "store_status_str": "",
+        "ceo_no": "7174700869",
+        "map_cood_lat": "36.0940247792373",
+        "map_cood_lgt": "128.4289897792"
+      },
+      {
+        "store_nm": "구미형곡",
+        "store_status_str": "",
+        "ceo_no": "2911200123",
+        "map_cood_lat": "36.112853107873",
+        "map_cood_lgt": "128.336702147841"
+      },
+      {
+        "store_nm": "군산나운",
+        "store_status_str": "",
+        "ceo_no": "5482900954",
+        "map_cood_lat": "35.9676972669669",
+        "map_cood_lgt": "126.700940699129"
+      },
+      {
+        "store_nm": "군산수송",
+        "store_status_str": "",
+        "ceo_no": "6460402331",
+        "map_cood_lat": "35.9649904271289",
+        "map_cood_lgt": "126.718804904558"
+      },
+      {
+        "store_nm": "군산조촌",
+        "store_status_str": "",
+        "ceo_no": "3171301213",
+        "map_cood_lat": "35.9768143331739",
+        "map_cood_lgt": "126.740556645794"
+      },
+      {
+        "store_nm": "군자",
+        "store_status_str": "",
+        "ceo_no": "4050332770",
+        "map_cood_lat": "37.5541467256436",
+        "map_cood_lgt": "127.075007842853"
+      },
+      {
+        "store_nm": "군포당동",
+        "store_status_str": "",
+        "ceo_no": "7070202044",
+        "map_cood_lat": "37.3504426484492",
+        "map_cood_lgt": "126.939565926971"
+      },
+      {
+        "store_nm": "군포산본",
+        "store_status_str": "",
+        "ceo_no": "1377200240",
+        "map_cood_lat": "37.3684592043221",
+        "map_cood_lgt": "126.940040074868"
+      },
+      {
+        "store_nm": "길동",
+        "store_status_str": "",
+        "ceo_no": "7482600913",
+        "map_cood_lat": "37.5352928515791",
+        "map_cood_lgt": "127.137046559967"
+      },
+      {
+        "store_nm": "김천신음",
+        "store_status_str": "",
+        "ceo_no": "8581000465",
+        "map_cood_lat": "36.1353116515022",
+        "map_cood_lgt": "128.116476658752"
+      },
+      {
+        "store_nm": "김천혁신도시",
+        "store_status_str": "",
+        "ceo_no": "6776400554",
+        "map_cood_lat": "36.1249939125953",
+        "map_cood_lgt": "128.188078270449"
+      },
+      {
+        "store_nm": "김포1호",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2222401207",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "김포고촌",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2362401244",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "김포구래",
+        "store_status_str": "",
+        "ceo_no": "7694200787",
+        "map_cood_lat": "37.6450938747209",
+        "map_cood_lgt": "126.633661239816"
+      },
+      {
+        "store_nm": "김포양촌",
+        "store_status_str": "",
+        "ceo_no": "2971301957",
+        "map_cood_lat": "37.6579047711216",
+        "map_cood_lgt": "126.630792978624"
+      },
+      {
+        "store_nm": "김포장기",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "7570201792",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "김포통진",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "8322301332",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "김포풍무",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "3810501636",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "김포한강신도시",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "3263700999",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "김해내외동",
+        "store_status_str": "",
+        "ceo_no": "3060752045",
+        "map_cood_lat": "35.2348206163982",
+        "map_cood_lgt": "128.858853377287"
+      },
+      {
+        "store_nm": "김해삼계",
+        "store_status_str": "",
+        "ceo_no": "1533100666",
+        "map_cood_lat": "35.2639605267853",
+        "map_cood_lgt": "128.87217303951"
+      },
+      {
+        "store_nm": "김해삼안",
+        "store_status_str": "",
+        "ceo_no": "4751101062",
+        "map_cood_lat": "35.2485672316405",
+        "map_cood_lgt": "128.91198334395"
+      },
+      {
+        "store_nm": "김해삼정",
+        "store_status_str": "",
+        "ceo_no": "7301001695",
+        "map_cood_lat": "35.2299131188043",
+        "map_cood_lgt": "128.898641186346"
+      },
+      {
+        "store_nm": "김해율하",
+        "store_status_str": "",
+        "ceo_no": "8053300795",
+        "map_cood_lat": "35.1777357006323",
+        "map_cood_lgt": "128.812537520365"
+      },
+      {
+        "store_nm": "김해장유",
+        "store_status_str": "",
+        "ceo_no": "4860301975",
+        "map_cood_lat": "35.1949589539948",
+        "map_cood_lgt": "128.800779680191"
+      },
+      {
+        "store_nm": "김해주촌",
+        "store_status_str": "",
+        "ceo_no": "6260302214",
+        "map_cood_lat": "35.2323125344743",
+        "map_cood_lgt": "128.837611873269"
+      },
+      {
+        "store_nm": "김해진영",
+        "store_status_str": "",
+        "ceo_no": "2212328486",
+        "map_cood_lat": "35.3055060053741",
+        "map_cood_lgt": "128.723851341465"
+      },
+      {
+        "store_nm": "까치산역",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1021006589",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "나주혁신도시",
+        "store_status_str": "",
+        "ceo_no": "2366400294",
+        "map_cood_lat": "35.0158266164318",
+        "map_cood_lgt": "126.79391065381"
+      },
+      {
+        "store_nm": "낙성대",
+        "store_status_str": "",
+        "ceo_no": "2071917399",
+        "map_cood_lat": "37.4787955892816",
+        "map_cood_lgt": "126.959853000057"
+      },
+      {
+        "store_nm": "남가좌",
+        "store_status_str": "",
+        "ceo_no": "7674200802",
+        "map_cood_lat": "37.5788362437408",
+        "map_cood_lgt": "126.923977952517"
+      },
+      {
+        "store_nm": "남양주다산신도시",
+        "store_status_str": "",
+        "ceo_no": "7504200764",
+        "map_cood_lat": "37.6222034496201",
+        "map_cood_lgt": "127.159784476722"
+      },
+      {
+        "store_nm": "남양주덕소",
+        "store_status_str": "",
+        "ceo_no": "8987600358",
+        "map_cood_lat": "37.5873519109697",
+        "map_cood_lgt": "127.21152225361"
+      },
+      {
+        "store_nm": "남양주도농역",
+        "store_status_str": "",
+        "ceo_no": "6454500804",
+        "map_cood_lat": "37.6110518592988",
+        "map_cood_lgt": "127.164620379241"
+      },
+      {
+        "store_nm": "남양주마석",
+        "store_status_str": "",
+        "ceo_no": "3270201999",
+        "map_cood_lat": "37.652114878585",
+        "map_cood_lgt": "127.306625369051"
+      },
+      {
+        "store_nm": "남양주별내",
+        "store_status_str": "",
+        "ceo_no": "7512701235",
+        "map_cood_lat": "37.657598246593",
+        "map_cood_lgt": "127.128433725881"
+      },
+      {
+        "store_nm": "남양주오남",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2150266952",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "남양주진접지구",
+        "store_status_str": "",
+        "ceo_no": "1162001490",
+        "map_cood_lat": "37.7112828369734",
+        "map_cood_lgt": "127.187627816665"
+      },
+      {
+        "store_nm": "남양주퇴계원",
+        "store_status_str": "",
+        "ceo_no": "1960402379",
+        "map_cood_lat": "37.6527340990767",
+        "map_cood_lgt": "127.142493213746"
+      },
+      {
+        "store_nm": "남양주평내",
+        "store_status_str": "",
+        "ceo_no": "2581701358",
+        "map_cood_lat": "37.645208293329",
+        "map_cood_lgt": "127.236452877642"
+      },
+      {
+        "store_nm": "남양주호평",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2103123318",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "노량진",
+        "store_status_str": "",
+        "ceo_no": "5081691888",
+        "map_cood_lat": "37.5117976343165",
+        "map_cood_lgt": "126.945592166536"
+      },
+      {
+        "store_nm": "녹번",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "6921501613",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "논산연무대",
+        "store_status_str": "",
+        "ceo_no": "3078518811",
+        "map_cood_lat": "36.1285263250268",
+        "map_cood_lgt": "127.100015027757"
+      },
+      {
+        "store_nm": "논현",
+        "store_status_str": "",
+        "ceo_no": "8221202060",
+        "map_cood_lat": "37.50952510176394",
+        "map_cood_lgt": "127.03895301337084"
+      },
+      {
+        "store_nm": "답십리",
+        "store_status_str": "",
+        "ceo_no": "7241301750",
+        "map_cood_lat": "37.5723502612497",
+        "map_cood_lgt": "127.050862995123"
+      },
+      {
+        "store_nm": "당산",
+        "store_status_str": "",
+        "ceo_no": "2231309002",
+        "map_cood_lat": "37.5308112501685",
+        "map_cood_lgt": "126.898319035004"
+      },
+      {
+        "store_nm": "당진송악",
+        "store_status_str": "",
+        "ceo_no": "5067900241",
+        "map_cood_lat": "36.9021133",
+        "map_cood_lgt": "126.6930157"
+      },
+      {
+        "store_nm": "대구광장",
+        "store_status_str": "",
+        "ceo_no": "4207000319",
+        "map_cood_lat": "35.8557187655227",
+        "map_cood_lgt": "128.550710498388"
+      },
+      {
+        "store_nm": "대구금호사수",
+        "store_status_str": "",
+        "ceo_no": "7907400220",
+        "map_cood_lat": "35.8965826844157",
+        "map_cood_lgt": "128.515306614149"
+      },
+      {
+        "store_nm": "대구남산대신",
+        "store_status_str": "",
+        "ceo_no": "7583301009",
+        "map_cood_lat": "35.8636199724894",
+        "map_cood_lgt": "128.57686695382"
+      },
+      {
+        "store_nm": "대구다사",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2580701970",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "대구대곡",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "5352601238",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "대구동천",
+        "store_status_str": "",
+        "ceo_no": "3101397741",
+        "map_cood_lat": "35.9406768577437",
+        "map_cood_lgt": "128.569259702886"
+      },
+      {
+        "store_nm": "대구범어",
+        "store_status_str": "",
+        "ceo_no": "3733001239",
+        "map_cood_lat": "35.8550838760942",
+        "map_cood_lgt": "128.625987583308"
+      },
+      {
+        "store_nm": "대구복현",
+        "store_status_str": "",
+        "ceo_no": "7922501358",
+        "map_cood_lat": "35.8918459394323",
+        "map_cood_lgt": "128.620959129966"
+      },
+      {
+        "store_nm": "대구본리",
+        "store_status_str": "",
+        "ceo_no": "7251601190",
+        "map_cood_lat": "35.835805394496",
+        "map_cood_lgt": "128.537250962241"
+      },
+      {
+        "store_nm": "대구봉덕",
+        "store_status_str": "",
+        "ceo_no": "5380102475",
+        "map_cood_lat": "35.8447869477251",
+        "map_cood_lgt": "128.595054712285"
+      },
+      {
+        "store_nm": "대구상인",
+        "store_status_str": "",
+        "ceo_no": "3131361261",
+        "map_cood_lat": "35.8168260495745",
+        "map_cood_lgt": "128.536587740968"
+      },
+      {
+        "store_nm": "대구성당",
+        "store_status_str": "",
+        "ceo_no": "5260802016",
+        "map_cood_lat": "35.8394695128787",
+        "map_cood_lgt": "128.56126238145"
+      },
+      {
+        "store_nm": "대구시지",
+        "store_status_str": "",
+        "ceo_no": "4480301482",
+        "map_cood_lat": "35.8318502320151",
+        "map_cood_lgt": "128.707409524315"
+      },
+      {
+        "store_nm": "대구안심",
+        "store_status_str": "",
+        "ceo_no": "3024700347",
+        "map_cood_lat": "35.8679885451416",
+        "map_cood_lgt": "128.731432379674"
+      },
+      {
+        "store_nm": "대구연경지묘",
+        "store_status_str": "",
+        "ceo_no": "2142001722",
+        "map_cood_lat": "35.9429933758035",
+        "map_cood_lgt": "128.617964588595"
+      },
+      {
+        "store_nm": "대구옥포",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "5740202691",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "대구용산",
+        "store_status_str": "",
+        "ceo_no": "6392800516",
+        "map_cood_lat": "35.8500186444748",
+        "map_cood_lgt": "128.526241808912"
+      },
+      {
+        "store_nm": "대구율하",
+        "store_status_str": "",
+        "ceo_no": "8193300760",
+        "map_cood_lat": "35.8686945329889",
+        "map_cood_lgt": "128.696484931942"
+      },
+      {
+        "store_nm": "대구이곡",
+        "store_status_str": "",
+        "ceo_no": "8355100640",
+        "map_cood_lat": "35.8539062503189",
+        "map_cood_lgt": "128.505501008264"
+      },
+      {
+        "store_nm": "대구지산",
+        "store_status_str": "",
+        "ceo_no": "1810202693",
+        "map_cood_lat": "35.8227262997621",
+        "map_cood_lgt": "128.627941962354"
+      },
+      {
+        "store_nm": "대구진천",
+        "store_status_str": "",
+        "ceo_no": "3083801022",
+        "map_cood_lat": "35.8147608383373",
+        "map_cood_lgt": "128.520797859198"
+      },
+      {
+        "store_nm": "대구침산",
+        "store_status_str": "",
+        "ceo_no": "2318701211",
+        "map_cood_lat": "35.8838442418446",
+        "map_cood_lgt": "128.593777829506"
+      },
+      {
+        "store_nm": "대구태전",
+        "store_status_str": "",
+        "ceo_no": "3131801953",
+        "map_cood_lat": "35.9268542382606",
+        "map_cood_lgt": "128.546429200566"
+      },
+      {
+        "store_nm": "대구테크노폴리스",
+        "store_status_str": "",
+        "ceo_no": "6934600756",
+        "map_cood_lat": "35.6923105680537",
+        "map_cood_lgt": "128.450090457255"
+      },
+      {
+        "store_nm": "대구평리",
+        "store_status_str": "",
+        "ceo_no": "3401501779",
+        "map_cood_lat": "35.8747913485515",
+        "map_cood_lgt": "128.554633247823"
+      },
+      {
+        "store_nm": "대구화원",
+        "store_status_str": "",
+        "ceo_no": "4130513399",
+        "map_cood_lat": "35.8090545696011",
+        "map_cood_lgt": "128.510968223135"
+      },
+      {
+        "store_nm": "대림",
+        "store_status_str": "",
+        "ceo_no": "5553501006",
+        "map_cood_lat": "37.4928271188235",
+        "map_cood_lgt": "126.903956980555"
+      },
+      {
+        "store_nm": "대방",
+        "store_status_str": "",
+        "ceo_no": "8454700539",
+        "map_cood_lat": "37.5049316009076",
+        "map_cood_lgt": "126.921803907477"
+      },
+      {
+        "store_nm": "대전가오",
+        "store_status_str": "",
+        "ceo_no": "6110657284",
+        "map_cood_lat": "36.3078847455366",
+        "map_cood_lgt": "127.456436186607"
+      },
+      {
+        "store_nm": "대전갈마",
+        "store_status_str": "",
+        "ceo_no": "2640102569",
+        "map_cood_lat": "36.3451701820774",
+        "map_cood_lgt": "127.374470422285"
+      },
+      {
+        "store_nm": "대전관저",
+        "store_status_str": "",
+        "ceo_no": "1521101247",
+        "map_cood_lat": "36.2951046298272",
+        "map_cood_lgt": "127.336352007652"
+      },
+      {
+        "store_nm": "대전관평",
+        "store_status_str": "",
+        "ceo_no": "4082052113",
+        "map_cood_lat": "36.4260851605234",
+        "map_cood_lgt": "127.391214921142"
+      },
+      {
+        "store_nm": "대전괴정",
+        "store_status_str": "",
+        "ceo_no": "5062176605",
+        "map_cood_lat": "36.3353417217074",
+        "map_cood_lgt": "127.384111726014"
+      },
+      {
+        "store_nm": "대전노은",
+        "store_status_str": "",
+        "ceo_no": "4762701009",
+        "map_cood_lat": "36.3756046948669",
+        "map_cood_lgt": "127.31685620348"
+      },
+      {
+        "store_nm": "대전도마",
+        "store_status_str": "",
+        "ceo_no": "4841401320",
+        "map_cood_lat": "36.3166341711023",
+        "map_cood_lgt": "127.371475167646"
+      },
+      {
+        "store_nm": "대전도안",
+        "store_status_str": "",
+        "ceo_no": "7227200408",
+        "map_cood_lat": "36.3188249581202",
+        "map_cood_lgt": "127.343943883526"
+      },
+      {
+        "store_nm": "대전둔산",
+        "store_status_str": "",
+        "ceo_no": "1091968615",
+        "map_cood_lat": "36.3508743553933",
+        "map_cood_lgt": "127.397811745011"
+      },
+      {
+        "store_nm": "대전만년",
+        "store_status_str": "",
+        "ceo_no": "1444300423",
+        "map_cood_lat": "36.3653184927199",
+        "map_cood_lgt": "127.376181041896"
+      },
+      {
+        "store_nm": "대전문화",
+        "store_status_str": "",
+        "ceo_no": "2241799669",
+        "map_cood_lat": "36.3199815385856",
+        "map_cood_lgt": "127.414607275206"
+      },
+      {
+        "store_nm": "대전반석",
+        "store_status_str": "",
+        "ceo_no": "1704200556",
+        "map_cood_lat": "36.3882151527043",
+        "map_cood_lgt": "127.307302941511"
+      },
+      {
+        "store_nm": "대전상대",
+        "store_status_str": "",
+        "ceo_no": "3131204166",
+        "map_cood_lat": "36.3445854178909",
+        "map_cood_lgt": "127.339122316156"
+      },
+      {
+        "store_nm": "대전선화",
+        "store_status_str": "",
+        "ceo_no": "1601300786",
+        "map_cood_lat": "36.3284823130105",
+        "map_cood_lgt": "127.417981111949"
+      },
+      {
+        "store_nm": "대전송촌",
+        "store_status_str": "",
+        "ceo_no": "4820101834",
+        "map_cood_lat": "36.3632396896963",
+        "map_cood_lgt": "127.437962312439"
+      },
+      {
+        "store_nm": "대전신탄진",
+        "store_status_str": "",
+        "ceo_no": "4392601279",
+        "map_cood_lat": "36.425414292254",
+        "map_cood_lgt": "127.387830219255"
+      },
+      {
+        "store_nm": "대전우송대",
+        "store_status_str": "",
+        "ceo_no": "6245100550",
+        "map_cood_lat": "36.3352499257626",
+        "map_cood_lgt": "127.449455994242"
+      },
+      {
+        "store_nm": "대전월평",
+        "store_status_str": "",
+        "ceo_no": "6821800729",
+        "map_cood_lat": "36.3548402756147",
+        "map_cood_lgt": "127.363219877849"
+      },
+      {
+        "store_nm": "대전전민",
+        "store_status_str": "",
+        "ceo_no": "6992201024",
+        "map_cood_lat": "36.3990071675281",
+        "map_cood_lgt": "127.403873233374"
+      },
+      {
+        "store_nm": "대전정림",
+        "store_status_str": "",
+        "ceo_no": "2581800109",
+        "map_cood_lat": "36.3024460048202",
+        "map_cood_lgt": "127.366735460039"
+      },
+      {
+        "store_nm": "대전죽동",
+        "store_status_str": "",
+        "ceo_no": "3602100310",
+        "map_cood_lat": "36.3720582506431",
+        "map_cood_lgt": "127.339702969404"
+      },
+      {
+        "store_nm": "대전중리",
+        "store_status_str": "",
+        "ceo_no": "4490601017",
+        "map_cood_lat": "36.3608389093973",
+        "map_cood_lgt": "127.42958881661"
+      },
+      {
+        "store_nm": "대전탄방",
+        "store_status_str": "",
+        "ceo_no": "1722701107",
+        "map_cood_lat": "36.3460562851849",
+        "map_cood_lgt": "127.392341800362"
+      },
+      {
+        "store_nm": "대전태평",
+        "store_status_str": "",
+        "ceo_no": "4077300296",
+        "map_cood_lat": "36.3252681431499",
+        "map_cood_lgt": "127.39930117467"
+      },
+      {
+        "store_nm": "대전학하",
+        "store_status_str": "",
+        "ceo_no": "8770701562",
+        "map_cood_lat": "36.3482311961057",
+        "map_cood_lgt": "127.299431130127"
+      },
+      {
+        "store_nm": "대전한남대",
+        "store_status_str": "",
+        "ceo_no": "1873600650",
+        "map_cood_lat": "36.3511600121586",
+        "map_cood_lgt": "127.428016300332"
+      },
+      {
+        "store_nm": "대치",
+        "store_status_str": "",
+        "ceo_no": "8221701111",
+        "map_cood_lat": "37.5018646177025",
+        "map_cood_lgt": "127.054358667741"
+      },
+      {
+        "store_nm": "대학로",
+        "store_status_str": "",
+        "ceo_no": "8641401341",
+        "map_cood_lat": "37.5812389175669",
+        "map_cood_lgt": "127.004024587193"
+      },
+      {
+        "store_nm": "독립문역",
+        "store_status_str": "",
+        "ceo_no": "6733100796",
+        "map_cood_lat": "37.5708610950823",
+        "map_cood_lgt": "126.962352257162"
+      },
+      {
+        "store_nm": "독산",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "3945000744",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "동두천지행",
+        "store_status_str": "",
+        "ceo_no": "8494200540",
+        "map_cood_lat": "37.8950556472443",
+        "map_cood_lgt": "127.048286170773"
+      },
+      {
+        "store_nm": "동인천",
+        "store_status_str": "",
+        "ceo_no": "1181561409",
+        "map_cood_lat": "37.470191397553",
+        "map_cood_lgt": "126.635290525492"
+      },
+      {
+        "store_nm": "동탄영천",
+        "store_status_str": "",
+        "ceo_no": "5483800505",
+        "map_cood_lat": "37.2055714761258",
+        "map_cood_lgt": "127.114211224596"
+      },
+      {
+        "store_nm": "동해북삼",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4295700369",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "동해천곡",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "8040401772",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "등촌역",
+        "store_status_str": "",
+        "ceo_no": "7328501156",
+        "map_cood_lat": "37.5521439307902",
+        "map_cood_lgt": "126.863237990166"
+      },
+      {
+        "store_nm": "뚝섬유원지",
+        "store_status_str": "",
+        "ceo_no": "6556900340",
+        "map_cood_lat": "37.5317949271477",
+        "map_cood_lgt": "127.070148142376"
+      },
+      {
+        "store_nm": "마곡역",
+        "store_status_str": "",
+        "ceo_no": "1784300538",
+        "map_cood_lat": "37.5596237809702",
+        "map_cood_lgt": "126.831997170629"
+      },
+      {
+        "store_nm": "마산교방",
+        "store_status_str": "",
+        "ceo_no": "1515500540",
+        "map_cood_lat": "35.210986349591",
+        "map_cood_lgt": "128.565303289929"
+      },
+      {
+        "store_nm": "마산내서",
+        "store_status_str": "",
+        "ceo_no": "5831501376",
+        "map_cood_lat": "35.2368138860396",
+        "map_cood_lgt": "128.503924066266"
+      },
+      {
+        "store_nm": "마산반월중앙",
+        "store_status_str": "",
+        "ceo_no": "4851901779",
+        "map_cood_lat": "35.193451251564",
+        "map_cood_lgt": "128.565954558892"
+      },
+      {
+        "store_nm": "마산산호",
+        "store_status_str": "",
+        "ceo_no": "6521901670",
+        "map_cood_lat": "35.2202647188096",
+        "map_cood_lgt": "128.586171706178"
+      },
+      {
+        "store_nm": "마산월영",
+        "store_status_str": "",
+        "ceo_no": "2221614425",
+        "map_cood_lat": "35.1796923720103",
+        "map_cood_lgt": "128.559906238772"
+      },
+      {
+        "store_nm": "마산합성",
+        "store_status_str": "",
+        "ceo_no": "4060452266",
+        "map_cood_lat": "35.2369344281864",
+        "map_cood_lgt": "128.582395233766"
+      },
+      {
+        "store_nm": "마포역",
+        "store_status_str": "",
+        "ceo_no": "4174400712",
+        "map_cood_lat": "37.5395128161954",
+        "map_cood_lgt": "126.946972030484"
+      },
+      {
+        "store_nm": "망원",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "3115400693",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "면목",
+        "store_status_str": "",
+        "ceo_no": "3722900866",
+        "map_cood_lat": "37.5769212383799",
+        "map_cood_lgt": "127.086045155308"
+      },
+      {
+        "store_nm": "명동",
+        "store_status_str": "",
+        "ceo_no": "4260502165",
+        "map_cood_lat": "37.5647312946952",
+        "map_cood_lgt": "126.983858910559"
+      },
+      {
+        "store_nm": "명일",
+        "store_status_str": "",
+        "ceo_no": "3102501419",
+        "map_cood_lat": "37.5534502946153",
+        "map_cood_lgt": "127.142619599489"
+      },
+      {
+        "store_nm": "목동1호",
+        "store_status_str": "",
+        "ceo_no": "4572400973",
+        "map_cood_lat": "37.5404937198216",
+        "map_cood_lgt": "126.869011739335"
+      },
+      {
+        "store_nm": "목포북항",
+        "store_status_str": "",
+        "ceo_no": "7061701269",
+        "map_cood_lat": "34.8094928247821",
+        "map_cood_lgt": "126.377614113779"
+      },
+      {
+        "store_nm": "목포용해",
+        "store_status_str": "",
+        "ceo_no": "1981701468",
+        "map_cood_lat": "34.8177554288369",
+        "map_cood_lgt": "126.392342021097"
+      },
+      {
+        "store_nm": "목포하당",
+        "store_status_str": "",
+        "ceo_no": "2083092440",
+        "map_cood_lat": "34.8065724918582",
+        "map_cood_lgt": "126.421912489845"
+      },
+      {
+        "store_nm": "무안남악",
+        "store_status_str": "",
+        "ceo_no": "6436200353",
+        "map_cood_lat": "34.809961991984",
+        "map_cood_lgt": "126.46484805151"
+      },
+      {
+        "store_nm": "묵동",
+        "store_status_str": "",
+        "ceo_no": "4860601831",
+        "map_cood_lat": "37.6148560082174",
+        "map_cood_lgt": "127.077906819525"
+      },
+      {
+        "store_nm": "문래",
+        "store_status_str": "",
+        "ceo_no": "3262401251",
+        "map_cood_lat": "37.5180335578099",
+        "map_cood_lgt": "126.889254681619"
+      },
+      {
+        "store_nm": "문정",
+        "store_status_str": "",
+        "ceo_no": "2841201823",
+        "map_cood_lat": "37.485379022272",
+        "map_cood_lgt": "127.125887380568"
+      },
+      {
+        "store_nm": "미성",
+        "store_status_str": "",
+        "ceo_no": "1730201806",
+        "map_cood_lat": "37.4772244900672",
+        "map_cood_lgt": "126.912595040644"
+      },
+      {
+        "store_nm": "미아",
+        "store_status_str": "폐점",
+        "ceo_no": "4424800486",
+        "map_cood_lat": "37.6329166908441",
+        "map_cood_lgt": "127.024848624431"
+      },
+      {
+        "store_nm": "반포",
+        "store_status_str": "",
+        "ceo_no": "1043474037",
+        "map_cood_lat": "37.5107390394163",
+        "map_cood_lgt": "127.016715456905"
+      },
+      {
+        "store_nm": "방배1호",
+        "store_status_str": "",
+        "ceo_no": "1064451169",
+        "map_cood_lat": "37.4931470939107",
+        "map_cood_lgt": "126.986172438541"
+      },
+      {
+        "store_nm": "방배2호",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2891102117",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "방이",
+        "store_status_str": "",
+        "ceo_no": "3611301511",
+        "map_cood_lat": "37.510487575447",
+        "map_cood_lgt": "127.120843188383"
+      },
+      {
+        "store_nm": "방학",
+        "store_status_str": "",
+        "ceo_no": "2951300632",
+        "map_cood_lat": "37.6665592478837",
+        "map_cood_lgt": "127.044882127345"
+      },
+      {
+        "store_nm": "부산가야",
+        "store_status_str": "",
+        "ceo_no": "1364000950",
+        "map_cood_lat": "35.1554750450232",
+        "map_cood_lgt": "129.039140550065"
+      },
+      {
+        "store_nm": "부산개금",
+        "store_status_str": "",
+        "ceo_no": "3171400472",
+        "map_cood_lat": "35.1479459802223",
+        "map_cood_lgt": "129.019313498167"
+      },
+      {
+        "store_nm": "부산거제",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "7603301069",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "부산광안",
+        "store_status_str": "",
+        "ceo_no": "3071047206",
+        "map_cood_lat": "35.1642070450479",
+        "map_cood_lgt": "129.112286276289"
+      },
+      {
+        "store_nm": "부산괴정",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "3103300899",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "부산구서",
+        "store_status_str": "",
+        "ceo_no": "1871201293",
+        "map_cood_lat": "35.249105353345",
+        "map_cood_lgt": "129.087951474284"
+      },
+      {
+        "store_nm": "부산국제신도시",
+        "store_status_str": "",
+        "ceo_no": "1894500487",
+        "map_cood_lat": "35.0982900694962",
+        "map_cood_lgt": "128.920897909427"
+      },
+      {
+        "store_nm": "부산금곡",
+        "store_status_str": "폐점",
+        "ceo_no": "5844200696",
+        "map_cood_lat": "35.2628378544498",
+        "map_cood_lgt": "129.018233798763"
+      },
+      {
+        "store_nm": "부산금곡",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4041094577",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "부산기장일광",
+        "store_status_str": "",
+        "ceo_no": "4871701126",
+        "map_cood_lat": "35.2535925709037",
+        "map_cood_lgt": "129.215978184049"
+      },
+      {
+        "store_nm": "부산남항",
+        "store_status_str": "",
+        "ceo_no": "1864700783",
+        "map_cood_lat": "35.0894656024332",
+        "map_cood_lgt": "129.039073282344"
+      },
+      {
+        "store_nm": "부산다대",
+        "store_status_str": "",
+        "ceo_no": "5502401121",
+        "map_cood_lat": "35.0597002553228",
+        "map_cood_lgt": "128.980345927435"
+      },
+      {
+        "store_nm": "부산대신",
+        "store_status_str": "",
+        "ceo_no": "3243400916",
+        "map_cood_lat": "35.1155506810769",
+        "map_cood_lgt": "129.018183770245"
+      },
+      {
+        "store_nm": "부산대연",
+        "store_status_str": "",
+        "ceo_no": "4011950888",
+        "map_cood_lat": "35.1379684977526",
+        "map_cood_lgt": "129.104361821459"
+      },
+      {
+        "store_nm": "부산덕천",
+        "store_status_str": "",
+        "ceo_no": "3875400123",
+        "map_cood_lat": "35.2086724508866",
+        "map_cood_lgt": "129.007467998002"
+      },
+      {
+        "store_nm": "부산만덕",
+        "store_status_str": "",
+        "ceo_no": "7853700577",
+        "map_cood_lat": "35.2111937918333",
+        "map_cood_lgt": "129.030627389454"
+      },
+      {
+        "store_nm": "부산명륜",
+        "store_status_str": "",
+        "ceo_no": "1536000313",
+        "map_cood_lat": "35.215388264119",
+        "map_cood_lgt": "129.087885877108"
+      },
+      {
+        "store_nm": "부산모라",
+        "store_status_str": "",
+        "ceo_no": "4083324844",
+        "map_cood_lat": "35.1920698093198",
+        "map_cood_lgt": "128.992659146832"
+      },
+      {
+        "store_nm": "부산문현",
+        "store_status_str": "",
+        "ceo_no": "1422301243",
+        "map_cood_lat": "35.1436712382119",
+        "map_cood_lgt": "129.077484983192"
+      },
+      {
+        "store_nm": "부산민락",
+        "store_status_str": "",
+        "ceo_no": "5054400590",
+        "map_cood_lat": "35.1610704817119",
+        "map_cood_lgt": "129.129892823757"
+      },
+      {
+        "store_nm": "부산반송",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "6212097635",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "부산반여",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "6884700450",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "부산범일",
+        "store_status_str": "",
+        "ceo_no": "7422401074",
+        "map_cood_lat": "35.1389771856977",
+        "map_cood_lgt": "129.056948622493"
+      },
+      {
+        "store_nm": "부산부암",
+        "store_status_str": "",
+        "ceo_no": "7613500897",
+        "map_cood_lat": "35.1682807821984",
+        "map_cood_lgt": "129.04152088439"
+      },
+      {
+        "store_nm": "부산부평",
+        "store_status_str": "",
+        "ceo_no": "7591600758",
+        "map_cood_lat": "35.1027124524853",
+        "map_cood_lgt": "129.024757578611"
+      },
+      {
+        "store_nm": "부산사상",
+        "store_status_str": "",
+        "ceo_no": "8135400433",
+        "map_cood_lat": "35.1595409770762",
+        "map_cood_lgt": "128.988043402329"
+      },
+      {
+        "store_nm": "부산사직",
+        "store_status_str": "",
+        "ceo_no": "6462600785",
+        "map_cood_lat": "35.1969575869981",
+        "map_cood_lgt": "129.059792200646"
+      },
+      {
+        "store_nm": "부산서면전포",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1756300482",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "부산서면중앙",
+        "store_status_str": "폐점",
+        "ceo_no": "1552301273",
+        "map_cood_lat": "35.1565570347618",
+        "map_cood_lgt": "129.061049349929"
+      },
+      {
+        "store_nm": "부산센텀",
+        "store_status_str": "",
+        "ceo_no": "7711001982",
+        "map_cood_lat": "35.1822572470239",
+        "map_cood_lgt": "129.123758110877"
+      },
+      {
+        "store_nm": "부산수영",
+        "store_status_str": "",
+        "ceo_no": "3443200901",
+        "map_cood_lat": "35.173636797479",
+        "map_cood_lgt": "129.096080518185"
+      },
+      {
+        "store_nm": "부산안락",
+        "store_status_str": "",
+        "ceo_no": "2180951404",
+        "map_cood_lat": "35.1982926823227",
+        "map_cood_lgt": "129.109721187909"
+      },
+      {
+        "store_nm": "부산양정",
+        "store_status_str": "",
+        "ceo_no": "4801201310",
+        "map_cood_lat": "35.1726770281407",
+        "map_cood_lgt": "129.068478067531"
+      },
+      {
+        "store_nm": "부산엄궁학장",
+        "store_status_str": "",
+        "ceo_no": "6861701228",
+        "map_cood_lat": "35.1401288133733",
+        "map_cood_lgt": "128.982600143085"
+      },
+      {
+        "store_nm": "부산연산",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2780500613",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "부산온천",
+        "store_status_str": "",
+        "ceo_no": "8131901047",
+        "map_cood_lat": "35.2126684621901",
+        "map_cood_lgt": "129.0724324928"
+      },
+      {
+        "store_nm": "부산용호",
+        "store_status_str": "",
+        "ceo_no": "2020808735",
+        "map_cood_lat": "35.1241874505923",
+        "map_cood_lgt": "129.111970312883"
+      },
+      {
+        "store_nm": "부산장림",
+        "store_status_str": "",
+        "ceo_no": "8075500508",
+        "map_cood_lat": "35.0808737090539",
+        "map_cood_lgt": "128.973065570095"
+      },
+      {
+        "store_nm": "부산장전",
+        "store_status_str": "",
+        "ceo_no": "1800200862",
+        "map_cood_lat": "35.2255588774497",
+        "map_cood_lgt": "129.085493757307"
+      },
+      {
+        "store_nm": "부산정관",
+        "store_status_str": "",
+        "ceo_no": "2130635918",
+        "map_cood_lat": "35.3267219260203",
+        "map_cood_lgt": "129.170127954018"
+      },
+      {
+        "store_nm": "부산좌동",
+        "store_status_str": "",
+        "ceo_no": "1436500418",
+        "map_cood_lat": "35.1678285360276",
+        "map_cood_lgt": "129.179090404563"
+      },
+      {
+        "store_nm": "부산주례",
+        "store_status_str": "",
+        "ceo_no": "8242401153",
+        "map_cood_lat": "35.1493036250478",
+        "map_cood_lgt": "129.011263330234"
+      },
+      {
+        "store_nm": "부산중동",
+        "store_status_str": "",
+        "ceo_no": "2691501145",
+        "map_cood_lat": "35.1649611264384",
+        "map_cood_lgt": "129.169378738941"
+      },
+      {
+        "store_nm": "부산청학",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4595800431",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "부산초량",
+        "store_status_str": "",
+        "ceo_no": "6880901457",
+        "map_cood_lat": "35.1222873959495",
+        "map_cood_lgt": "129.041979042352"
+      },
+      {
+        "store_nm": "부산초읍연지",
+        "store_status_str": "",
+        "ceo_no": "6921600945",
+        "map_cood_lat": "35.1779227397947",
+        "map_cood_lgt": "129.053438920012"
+      },
+      {
+        "store_nm": "부산토곡",
+        "store_status_str": "",
+        "ceo_no": "7731801534",
+        "map_cood_lat": "35.1828411370818",
+        "map_cood_lgt": "129.106834076502"
+      },
+      {
+        "store_nm": "부산하단",
+        "store_status_str": "",
+        "ceo_no": "5325000763",
+        "map_cood_lat": "35.1122172532523",
+        "map_cood_lgt": "128.962982743914"
+      },
+      {
+        "store_nm": "부산해운대",
+        "store_status_str": "",
+        "ceo_no": "7250901853",
+        "map_cood_lat": "35.1630317765316",
+        "map_cood_lgt": "129.145877232696"
+      },
+      {
+        "store_nm": "부산화명",
+        "store_status_str": "",
+        "ceo_no": "8240901198",
+        "map_cood_lat": "35.2347368104786",
+        "map_cood_lgt": "129.015739232032"
+      },
+      {
+        "store_nm": "부천고강",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2411701364",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "부천대산",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4491401818",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "부천범안",
+        "store_status_str": "",
+        "ceo_no": "3971801460",
+        "map_cood_lat": "37.4774506104027",
+        "map_cood_lgt": "126.812214682223"
+      },
+      {
+        "store_nm": "부천상동",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "8966100469",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "부천소사본동",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "6635400594",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "부천송내로데오",
+        "store_status_str": "",
+        "ceo_no": "1990802041",
+        "map_cood_lat": "37.490195092896",
+        "map_cood_lgt": "126.751854531616"
+      },
+      {
+        "store_nm": "부천시청",
+        "store_status_str": "",
+        "ceo_no": "3507000311",
+        "map_cood_lat": "37.5022287711389",
+        "map_cood_lgt": "126.763785349618"
+      },
+      {
+        "store_nm": "부천여월",
+        "store_status_str": "",
+        "ceo_no": "2094800521",
+        "map_cood_lat": "37.5200341895819",
+        "map_cood_lgt": "126.799290424566"
+      },
+      {
+        "store_nm": "부천옥길",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "8690101986",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "부천중동",
+        "store_status_str": "",
+        "ceo_no": "8183400745",
+        "map_cood_lat": "37.4978188552344",
+        "map_cood_lgt": "126.778844328395"
+      },
+      {
+        "store_nm": "북가좌",
+        "store_status_str": "",
+        "ceo_no": "6381301575",
+        "map_cood_lat": "37.5747271873697",
+        "map_cood_lgt": "126.90781488868"
+      },
+      {
+        "store_nm": "분당구미",
+        "store_status_str": "",
+        "ceo_no": "2050486052",
+        "map_cood_lat": "37.3456098795584",
+        "map_cood_lgt": "127.111333167981"
+      },
+      {
+        "store_nm": "분당동판교",
+        "store_status_str": "",
+        "ceo_no": "6253600996",
+        "map_cood_lat": "37.3935492900888",
+        "map_cood_lgt": "127.113624562871"
+      },
+      {
+        "store_nm": "분당서판교",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4901701971",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "분당서현",
+        "store_status_str": "",
+        "ceo_no": "1882800959",
+        "map_cood_lat": "37.3759342426855",
+        "map_cood_lgt": "127.140653047497"
+      },
+      {
+        "store_nm": "분당수내",
+        "store_status_str": "",
+        "ceo_no": "8880701301",
+        "map_cood_lat": "37.3699662961257",
+        "map_cood_lgt": "127.123645026627"
+      },
+      {
+        "store_nm": "분당야탑",
+        "store_status_str": "",
+        "ceo_no": "4450102310",
+        "map_cood_lat": "37.4124759333965",
+        "map_cood_lgt": "127.134184587557"
+      },
+      {
+        "store_nm": "분당정자",
+        "store_status_str": "",
+        "ceo_no": "7272301312",
+        "map_cood_lat": "37.3688009604922",
+        "map_cood_lgt": "127.112964628439"
+      },
+      {
+        "store_nm": "불광",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "7676400648",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "사당1호",
+        "store_status_str": "",
+        "ceo_no": "4885100615",
+        "map_cood_lat": "37.4853926822134",
+        "map_cood_lgt": "126.971279925511"
+      },
+      {
+        "store_nm": "삼각산",
+        "store_status_str": "",
+        "ceo_no": "5740401755",
+        "map_cood_lat": "37.6185549827482",
+        "map_cood_lgt": "127.01889337334"
+      },
+      {
+        "store_nm": "삼척남양",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2131546213",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "상계1호",
+        "store_status_str": "",
+        "ceo_no": "1481001902",
+        "map_cood_lat": "37.6516530389414",
+        "map_cood_lgt": "127.067422199148"
+      },
+      {
+        "store_nm": "상계역",
+        "store_status_str": "",
+        "ceo_no": "4891601163",
+        "map_cood_lat": "37.6604922631891",
+        "map_cood_lgt": "127.074384961251"
+      },
+      {
+        "store_nm": "상도1동",
+        "store_status_str": "",
+        "ceo_no": "5860901466",
+        "map_cood_lat": "37.4988251351086",
+        "map_cood_lgt": "126.951801507643"
+      },
+      {
+        "store_nm": "상암",
+        "store_status_str": "",
+        "ceo_no": "3951301528",
+        "map_cood_lat": "37.5785659345089",
+        "map_cood_lgt": "126.895556150422"
+      },
+      {
+        "store_nm": "상주중앙",
+        "store_status_str": "",
+        "ceo_no": "4802300433",
+        "map_cood_lat": "36.4229894772873",
+        "map_cood_lgt": "128.156901475961"
+      },
+      {
+        "store_nm": "서림",
+        "store_status_str": "",
+        "ceo_no": "8880601736",
+        "map_cood_lat": "37.4709079918859",
+        "map_cood_lgt": "126.939935050449"
+      },
+      {
+        "store_nm": "서산동문",
+        "store_status_str": "",
+        "ceo_no": "2020550625",
+        "map_cood_lat": "36.7821106296753",
+        "map_cood_lgt": "126.454562674127"
+      },
+      {
+        "store_nm": "서산예천",
+        "store_status_str": "",
+        "ceo_no": "1143700926",
+        "map_cood_lat": "36.7671571284594",
+        "map_cood_lgt": "126.447895573841"
+      },
+      {
+        "store_nm": "서초2동",
+        "store_status_str": "",
+        "ceo_no": "6764800492",
+        "map_cood_lat": "37.4871455979251",
+        "map_cood_lgt": "127.030500584145"
+      },
+      {
+        "store_nm": "서초3동",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1491300251",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "서충주기업도시",
+        "store_status_str": "",
+        "ceo_no": "3101227364",
+        "map_cood_lat": "37.0175336667649",
+        "map_cood_lgt": "127.824170406575"
+      },
+      {
+        "store_nm": "석촌",
+        "store_status_str": "",
+        "ceo_no": "5240701969",
+        "map_cood_lat": "37.5018295866507",
+        "map_cood_lgt": "127.095296039176"
+      },
+      {
+        "store_nm": "성남금광",
+        "store_status_str": "",
+        "ceo_no": "6334800549",
+        "map_cood_lat": "37.4424859187226",
+        "map_cood_lgt": "127.1655197357"
+      },
+      {
+        "store_nm": "성남동",
+        "store_status_str": "",
+        "ceo_no": "2881901329",
+        "map_cood_lat": "37.4372757510248",
+        "map_cood_lgt": "127.143502924"
+      },
+      {
+        "store_nm": "성남수진",
+        "store_status_str": "",
+        "ceo_no": "5370202159",
+        "map_cood_lat": "37.436704034532",
+        "map_cood_lgt": "127.128817441561"
+      },
+      {
+        "store_nm": "성남위례신도시",
+        "store_status_str": "",
+        "ceo_no": "6364100710",
+        "map_cood_lat": "37.4649414259375",
+        "map_cood_lgt": "127.139832694759"
+      },
+      {
+        "store_nm": "성내",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2413001209",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "성수1가",
+        "store_status_str": "",
+        "ceo_no": "5470102353",
+        "map_cood_lat": "37.541278064379",
+        "map_cood_lgt": "127.048828114958"
+      },
+      {
+        "store_nm": "성수2가",
+        "store_status_str": "",
+        "ceo_no": "5780902047",
+        "map_cood_lat": "37.5462296542414",
+        "map_cood_lgt": "127.061613152305"
+      },
+      {
+        "store_nm": "성신여대",
+        "store_status_str": "",
+        "ceo_no": "6497600232",
+        "map_cood_lat": "37.5909575213899",
+        "map_cood_lgt": "127.020250781403"
+      },
+      {
+        "store_nm": "성현중앙",
+        "store_status_str": "",
+        "ceo_no": "3044401550",
+        "map_cood_lat": "37.4862780245985",
+        "map_cood_lgt": "126.947875788771"
+      },
+      {
+        "store_nm": "세곡",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "7950801802",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "세종고운",
+        "store_status_str": "",
+        "ceo_no": "1181368859",
+        "map_cood_lat": "36.5048214169672",
+        "map_cood_lgt": "127.232785913049"
+      },
+      {
+        "store_nm": "세종보람소담",
+        "store_status_str": "",
+        "ceo_no": "7272301082",
+        "map_cood_lat": "36.4783286",
+        "map_cood_lgt": "127.2902201"
+      },
+      {
+        "store_nm": "세종새롬다정",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "5011594548",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "세종아름",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1691500453",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "세종조치원",
+        "store_status_str": "",
+        "ceo_no": "5326000549",
+        "map_cood_lat": "36.6037349180715",
+        "map_cood_lgt": "127.293588928953"
+      },
+      {
+        "store_nm": "속초교동",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "6233900763",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "속초조양",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "3975800453",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "송파",
+        "store_status_str": "",
+        "ceo_no": "5582601191",
+        "map_cood_lat": "37.5001489959029",
+        "map_cood_lgt": "127.11244838162"
+      },
+      {
+        "store_nm": "송파위례신도시",
+        "store_status_str": "",
+        "ceo_no": "4072301344",
+        "map_cood_lat": "37.4747301269203",
+        "map_cood_lgt": "127.142814347346"
+      },
+      {
+        "store_nm": "수락산역",
+        "store_status_str": "",
+        "ceo_no": "6883500743",
+        "map_cood_lat": "37.678049943638",
+        "map_cood_lgt": "127.054197889566"
+      },
+      {
+        "store_nm": "수원광교",
+        "store_status_str": "",
+        "ceo_no": "2440501531",
+        "map_cood_lat": "37.28916144187",
+        "map_cood_lgt": "127.047211752441"
+      },
+      {
+        "store_nm": "수원권선",
+        "store_status_str": "",
+        "ceo_no": "1353211124",
+        "map_cood_lat": "37.2472915686428",
+        "map_cood_lgt": "127.027544284221"
+      },
+      {
+        "store_nm": "수원망포",
+        "store_status_str": "",
+        "ceo_no": "7536400159",
+        "map_cood_lat": "37.247591715647",
+        "map_cood_lgt": "127.053564252009"
+      },
+      {
+        "store_nm": "수원매교",
+        "store_status_str": "",
+        "ceo_no": "4176100437",
+        "map_cood_lat": "37.2662607105505",
+        "map_cood_lgt": "127.011638174542"
+      },
+      {
+        "store_nm": "수원매탄1호",
+        "store_status_str": "",
+        "ceo_no": "2352801045",
+        "map_cood_lat": "37.2656163918867",
+        "map_cood_lgt": "127.045764936851"
+      },
+      {
+        "store_nm": "수원서둔",
+        "store_status_str": "",
+        "ceo_no": "2995300528",
+        "map_cood_lat": "37.2753084277745",
+        "map_cood_lgt": "126.978674305011"
+      },
+      {
+        "store_nm": "수원세류",
+        "store_status_str": "",
+        "ceo_no": "7946900359",
+        "map_cood_lat": "37.2526713347503",
+        "map_cood_lgt": "127.014352721928"
+      },
+      {
+        "store_nm": "수원영통1호",
+        "store_status_str": "",
+        "ceo_no": "2133700811",
+        "map_cood_lat": "37.2526508797333",
+        "map_cood_lgt": "127.078347379843"
+      },
+      {
+        "store_nm": "수원영통구청",
+        "store_status_str": "",
+        "ceo_no": "8101801788",
+        "map_cood_lat": "37.2601005816829",
+        "map_cood_lgt": "127.043588955072"
+      },
+      {
+        "store_nm": "수원우만",
+        "store_status_str": "",
+        "ceo_no": "4140664772",
+        "map_cood_lat": "37.2772175338822",
+        "map_cood_lgt": "127.036810943399"
+      },
+      {
+        "store_nm": "수원인계",
+        "store_status_str": "",
+        "ceo_no": "8893001087",
+        "map_cood_lat": "37.2579682094368",
+        "map_cood_lgt": "127.03383381649"
+      },
+      {
+        "store_nm": "수원정자2동",
+        "store_status_str": "",
+        "ceo_no": "3360901968",
+        "map_cood_lat": "37.2938106577498",
+        "map_cood_lgt": "127.001035660967"
+      },
+      {
+        "store_nm": "수원정자3동",
+        "store_status_str": "",
+        "ceo_no": "2181604476",
+        "map_cood_lat": "37.2997454959131",
+        "map_cood_lgt": "126.979706082316"
+      },
+      {
+        "store_nm": "수원조원",
+        "store_status_str": "",
+        "ceo_no": "7182401391",
+        "map_cood_lat": "37.3027443608736",
+        "map_cood_lgt": "127.015942921555"
+      },
+      {
+        "store_nm": "수원파장",
+        "store_status_str": "",
+        "ceo_no": "3340402078",
+        "map_cood_lat": "37.3079489323802",
+        "map_cood_lgt": "126.989853743678"
+      },
+      {
+        "store_nm": "수원평동",
+        "store_status_str": "",
+        "ceo_no": "7337200316",
+        "map_cood_lat": "37.2404463468233",
+        "map_cood_lgt": "126.969586368062"
+      },
+      {
+        "store_nm": "수원호매실",
+        "store_status_str": "",
+        "ceo_no": "7343100709",
+        "map_cood_lat": "37.2738589",
+        "map_cood_lgt": "126.9547989"
+      },
+      {
+        "store_nm": "수원화서",
+        "store_status_str": "",
+        "ceo_no": "3246000424",
+        "map_cood_lat": "37.2799488686184",
+        "map_cood_lgt": "127.002853267822"
+      },
+      {
+        "store_nm": "수유",
+        "store_status_str": "",
+        "ceo_no": "1975900447",
+        "map_cood_lat": "37.6447090236924",
+        "map_cood_lgt": "127.018063324688"
+      },
+      {
+        "store_nm": "숙명여대",
+        "store_status_str": "",
+        "ceo_no": "3931201355",
+        "map_cood_lat": "37.5479025201437",
+        "map_cood_lgt": "126.972088152407"
+      },
+      {
+        "store_nm": "순천신대지구",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "5850302382",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "순천오천",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1881001308",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "순천용당",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2131416143",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "순천조례",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2926300093",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "시흥",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "8550202305",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "시흥능곡",
+        "store_status_str": "",
+        "ceo_no": "4065000649",
+        "map_cood_lat": "37.3686613544902",
+        "map_cood_lgt": "126.810707325793"
+      },
+      {
+        "store_nm": "시흥대야",
+        "store_status_str": "",
+        "ceo_no": "2573300910",
+        "map_cood_lat": "37.4401382442959",
+        "map_cood_lgt": "126.788801055869"
+      },
+      {
+        "store_nm": "시흥목감",
+        "store_status_str": "",
+        "ceo_no": "8491601273",
+        "map_cood_lat": "37.3828197385632",
+        "map_cood_lgt": "126.861914049454"
+      },
+      {
+        "store_nm": "시흥배곧신도시",
+        "store_status_str": "",
+        "ceo_no": "5813000656",
+        "map_cood_lat": "37.3776904367165",
+        "map_cood_lgt": "126.726798241218"
+      },
+      {
+        "store_nm": "시흥은행",
+        "store_status_str": "",
+        "ceo_no": "6990801620",
+        "map_cood_lat": "37.4359336489059",
+        "map_cood_lgt": "126.801746610843"
+      },
+      {
+        "store_nm": "시흥정왕1호",
+        "store_status_str": "",
+        "ceo_no": "4190101160",
+        "map_cood_lat": "37.3437599282065",
+        "map_cood_lgt": "126.742923766147"
+      },
+      {
+        "store_nm": "시흥정왕3동",
+        "store_status_str": "",
+        "ceo_no": "5852401618",
+        "map_cood_lat": "37.3530959186178",
+        "map_cood_lgt": "126.7243566596"
+      },
+      {
+        "store_nm": "신내",
+        "store_status_str": "",
+        "ceo_no": "3437500356",
+        "map_cood_lat": "37.6043626932983",
+        "map_cood_lgt": "127.095715351608"
+      },
+      {
+        "store_nm": "신당청구",
+        "store_status_str": "",
+        "ceo_no": "2640701766",
+        "map_cood_lat": "37.5640147148401",
+        "map_cood_lgt": "127.014172058849"
+      },
+      {
+        "store_nm": "신림",
+        "store_status_str": "",
+        "ceo_no": "3242700844",
+        "map_cood_lat": "37.4847415237711",
+        "map_cood_lgt": "126.927374037327"
+      },
+      {
+        "store_nm": "신방화역",
+        "store_status_str": "",
+        "ceo_no": "1122535839",
+        "map_cood_lat": "37.5669962165931",
+        "map_cood_lgt": "126.81705155434"
+      },
+      {
+        "store_nm": "신수",
+        "store_status_str": "",
+        "ceo_no": "7297700331",
+        "map_cood_lat": "37.5511313387287",
+        "map_cood_lgt": "126.934179457938"
+      },
+      {
+        "store_nm": "신월",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4070963010",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "신정1동",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4773700846",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "신정2동",
+        "store_status_str": "",
+        "ceo_no": "6122862666",
+        "map_cood_lat": "37.5190295132533",
+        "map_cood_lgt": "126.873623545107"
+      },
+      {
+        "store_nm": "신제주",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4541200817",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "신천",
+        "store_status_str": "",
+        "ceo_no": "5955500134",
+        "map_cood_lat": "37.5106076231521",
+        "map_cood_lgt": "127.084528801012"
+      },
+      {
+        "store_nm": "신흥태평4동",
+        "store_status_str": "",
+        "ceo_no": "7155100496",
+        "map_cood_lat": "37.4441422721916",
+        "map_cood_lgt": "127.14314775245"
+      },
+      {
+        "store_nm": "쌍문",
+        "store_status_str": "",
+        "ceo_no": "3741301481",
+        "map_cood_lat": "37.6583574578363",
+        "map_cood_lgt": "127.038442347374"
+      },
+      {
+        "store_nm": "아산배방",
+        "store_status_str": "",
+        "ceo_no": "7090101476",
+        "map_cood_lat": "36.7720844312162",
+        "map_cood_lgt": "127.045378050903"
+      },
+      {
+        "store_nm": "아산신창",
+        "store_status_str": "",
+        "ceo_no": "7790901961",
+        "map_cood_lat": "36.7901615133323",
+        "map_cood_lgt": "126.955050590558"
+      },
+      {
+        "store_nm": "아산온양1호",
+        "store_status_str": "",
+        "ceo_no": "5504500700",
+        "map_cood_lat": "36.7814179591873",
+        "map_cood_lgt": "127.014379748616"
+      },
+      {
+        "store_nm": "아산용화",
+        "store_status_str": "",
+        "ceo_no": "4176700477",
+        "map_cood_lat": "36.773374388428",
+        "map_cood_lgt": "127.009196624799"
+      },
+      {
+        "store_nm": "아산장재",
+        "store_status_str": "",
+        "ceo_no": "1023133271",
+        "map_cood_lat": "36.7948486824264",
+        "map_cood_lgt": "127.088572639063"
+      },
+      {
+        "store_nm": "아산탕정",
+        "store_status_str": "",
+        "ceo_no": "4041316965",
+        "map_cood_lat": "36.7981336916912",
+        "map_cood_lgt": "127.061937378239"
+      },
+      {
+        "store_nm": "아산테크노밸리",
+        "store_status_str": "",
+        "ceo_no": "1951601424",
+        "map_cood_lat": "36.9253785599698",
+        "map_cood_lgt": "127.057856250381"
+      },
+      {
+        "store_nm": "아현",
+        "store_status_str": "",
+        "ceo_no": "2093013282",
+        "map_cood_lat": "37.5572901130348",
+        "map_cood_lgt": "126.950843300718"
+      },
+      {
+        "store_nm": "안동옥동",
+        "store_status_str": "",
+        "ceo_no": "2213462248",
+        "map_cood_lat": "36.5610112235677",
+        "map_cood_lgt": "128.703233463357"
+      },
+      {
+        "store_nm": "안동용상",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "8570402396",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "안산고잔",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4355500579",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "안산본오",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "5750201768",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "안산사동",
+        "store_status_str": "",
+        "ceo_no": "7801101305",
+        "map_cood_lat": "37.3024264430192",
+        "map_cood_lgt": "126.852053386211"
+      },
+      {
+        "store_nm": "안산선부",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "5086525687",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "안산신길",
+        "store_status_str": "",
+        "ceo_no": "4115600546",
+        "map_cood_lat": "37.3310426011087",
+        "map_cood_lgt": "126.786296885735"
+      },
+      {
+        "store_nm": "안산원곡",
+        "store_status_str": "",
+        "ceo_no": "4121801212",
+        "map_cood_lat": "37.3312801568108",
+        "map_cood_lgt": "126.804999011707"
+      },
+      {
+        "store_nm": "안산월피",
+        "store_status_str": "",
+        "ceo_no": "6232400551",
+        "map_cood_lat": "37.3347783737114",
+        "map_cood_lgt": "126.853849022648"
+      },
+      {
+        "store_nm": "안성공도",
+        "store_status_str": "",
+        "ceo_no": "3614000556",
+        "map_cood_lat": "37.0003581620541",
+        "map_cood_lgt": "127.17010224089"
+      },
+      {
+        "store_nm": "안성아양",
+        "store_status_str": "",
+        "ceo_no": "3601500978",
+        "map_cood_lat": "37.0059864060595",
+        "map_cood_lgt": "127.255240126296"
+      },
+      {
+        "store_nm": "안양관양1호",
+        "store_status_str": "",
+        "ceo_no": "1041168026",
+        "map_cood_lat": "37.4043432355533",
+        "map_cood_lgt": "126.954276532804"
+      },
+      {
+        "store_nm": "안양관양2호",
+        "store_status_str": "",
+        "ceo_no": "8168501250",
+        "map_cood_lat": "37.404425122828",
+        "map_cood_lgt": "126.969628642978"
+      },
+      {
+        "store_nm": "안양귀인",
+        "store_status_str": "폐점",
+        "ceo_no": "3264500562",
+        "map_cood_lat": "37.3846255736317",
+        "map_cood_lgt": "126.964036668994"
+      },
+      {
+        "store_nm": "안양덕천",
+        "store_status_str": "",
+        "ceo_no": "7690901343",
+        "map_cood_lat": "37.3965212793145",
+        "map_cood_lgt": "126.930263283986"
+      },
+      {
+        "store_nm": "안양박달",
+        "store_status_str": "",
+        "ceo_no": "4151562459",
+        "map_cood_lat": "37.4024269208371",
+        "map_cood_lgt": "126.908447315853"
+      },
+      {
+        "store_nm": "안양석수",
+        "store_status_str": "",
+        "ceo_no": "5670801599",
+        "map_cood_lat": "37.4207757188574",
+        "map_cood_lgt": "126.910314750022"
+      },
+      {
+        "store_nm": "안양평촌",
+        "store_status_str": "",
+        "ceo_no": "7863201012",
+        "map_cood_lat": "37.3912487228432",
+        "map_cood_lgt": "126.971649915351"
+      },
+      {
+        "store_nm": "양산CGV",
+        "store_status_str": "",
+        "ceo_no": "3432800895",
+        "map_cood_lat": "35.3182616054421",
+        "map_cood_lgt": "129.001603735527"
+      },
+      {
+        "store_nm": "양산덕계",
+        "store_status_str": "",
+        "ceo_no": "8050501753",
+        "map_cood_lat": "35.3717712291308",
+        "map_cood_lgt": "129.148084168753"
+      },
+      {
+        "store_nm": "양산범어",
+        "store_status_str": "",
+        "ceo_no": "8484000747",
+        "map_cood_lat": "35.3282534453993",
+        "map_cood_lgt": "129.01329734143"
+      },
+      {
+        "store_nm": "양산서창",
+        "store_status_str": "",
+        "ceo_no": "1391167173",
+        "map_cood_lat": "35.4030310000715",
+        "map_cood_lgt": "129.169513937613"
+      },
+      {
+        "store_nm": "양산석산",
+        "store_status_str": "",
+        "ceo_no": "8417100186",
+        "map_cood_lat": "35.3168071421194",
+        "map_cood_lgt": "129.026664383203"
+      },
+      {
+        "store_nm": "양산중부",
+        "store_status_str": "",
+        "ceo_no": "5095007387",
+        "map_cood_lat": "35.3387790182706",
+        "map_cood_lgt": "129.029153702639"
+      },
+      {
+        "store_nm": "양재",
+        "store_status_str": "",
+        "ceo_no": "8802101579",
+        "map_cood_lat": "37.4755740722396",
+        "map_cood_lgt": "127.045964443276"
+      },
+      {
+        "store_nm": "양주고읍",
+        "store_status_str": "",
+        "ceo_no": "1214528626",
+        "map_cood_lat": "37.7939879926588",
+        "map_cood_lgt": "127.078405854294"
+      },
+      {
+        "store_nm": "양주덕계",
+        "store_status_str": "",
+        "ceo_no": "4250502274",
+        "map_cood_lat": "37.8179963",
+        "map_cood_lgt": "127.0519345"
+      },
+      {
+        "store_nm": "양주덕정",
+        "store_status_str": "",
+        "ceo_no": "3910601848",
+        "map_cood_lat": "37.8382844648284",
+        "map_cood_lgt": "127.071771321148"
+      },
+      {
+        "store_nm": "양주백석",
+        "store_status_str": "",
+        "ceo_no": "1274672786",
+        "map_cood_lat": "37.7844588682109",
+        "map_cood_lgt": "126.982338412705"
+      },
+      {
+        "store_nm": "양주신산",
+        "store_status_str": "",
+        "ceo_no": "8470101628",
+        "map_cood_lat": "37.8959054572171",
+        "map_cood_lgt": "126.974151872801"
+      },
+      {
+        "store_nm": "양주옥정신도시",
+        "store_status_str": "",
+        "ceo_no": "7564000827",
+        "map_cood_lat": "37.8158895741477",
+        "map_cood_lgt": "127.097493738474"
+      },
+      {
+        "store_nm": "양평1호",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4551001722",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "여수무선",
+        "store_status_str": "",
+        "ceo_no": "3413800729",
+        "map_cood_lat": "34.773007657034",
+        "map_cood_lgt": "127.645394038219"
+      },
+      {
+        "store_nm": "여수문수",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1482400540",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "여수웅천",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "7070302250",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "여수학동",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "5975200221",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "여의도",
+        "store_status_str": "",
+        "ceo_no": "2521501531",
+        "map_cood_lat": "37.5196976918226",
+        "map_cood_lgt": "126.931347988243"
+      },
+      {
+        "store_nm": "여주1호",
+        "store_status_str": "",
+        "ceo_no": "4233300986",
+        "map_cood_lat": "37.3017269198749",
+        "map_cood_lgt": "127.648711821125"
+      },
+      {
+        "store_nm": "역삼1동",
+        "store_status_str": "",
+        "ceo_no": "7960201797",
+        "map_cood_lat": "37.4972022435021",
+        "map_cood_lgt": "127.033626056947"
+      },
+      {
+        "store_nm": "역촌",
+        "store_status_str": "",
+        "ceo_no": "1421101556",
+        "map_cood_lat": "37.6024151041847",
+        "map_cood_lgt": "126.917006079176"
+      },
+      {
+        "store_nm": "연천전곡",
+        "store_status_str": "",
+        "ceo_no": "3145700543",
+        "map_cood_lat": "38.0251014023915",
+        "map_cood_lgt": "127.068532202033"
+      },
+      {
+        "store_nm": "연천청산",
+        "store_status_str": "",
+        "ceo_no": "4144300491",
+        "map_cood_lat": "38.02352257892",
+        "map_cood_lgt": "127.135386581086"
+      },
+      {
+        "store_nm": "연희",
+        "store_status_str": "",
+        "ceo_no": "7581001484",
+        "map_cood_lat": "37.5664628636304",
+        "map_cood_lgt": "126.92651013822"
+      },
+      {
+        "store_nm": "영등포",
+        "store_status_str": "폐점",
+        "ceo_no": "7133700965",
+        "map_cood_lat": "37.5178050896144",
+        "map_cood_lgt": "126.910074100122"
+      },
+      {
+        "store_nm": "오류",
+        "store_status_str": "",
+        "ceo_no": "4181369587",
+        "map_cood_lat": "37.4860476",
+        "map_cood_lgt": "126.8385624"
+      },
+      {
+        "store_nm": "오산수청",
+        "store_status_str": "",
+        "ceo_no": "2620201294",
+        "map_cood_lat": "37.1745086019941",
+        "map_cood_lgt": "127.050738762727"
+      },
+      {
+        "store_nm": "오산시청",
+        "store_status_str": "",
+        "ceo_no": "2020595073",
+        "map_cood_lat": "37.1493824370038",
+        "map_cood_lgt": "127.075156203023"
+      },
+      {
+        "store_nm": "오산원동",
+        "store_status_str": "",
+        "ceo_no": "3370701235",
+        "map_cood_lat": "37.1414837859543",
+        "map_cood_lgt": "127.070392544956"
+      },
+      {
+        "store_nm": "옥수",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1011393379",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "완주봉동",
+        "store_status_str": "",
+        "ceo_no": "6656700381",
+        "map_cood_lat": "35.9583082678908",
+        "map_cood_lgt": "127.12484998506"
+      },
+      {
+        "store_nm": "용신",
+        "store_status_str": "",
+        "ceo_no": "5570801840",
+        "map_cood_lat": "37.573625808116",
+        "map_cood_lgt": "127.02709802221"
+      },
+      {
+        "store_nm": "용인기흥구청",
+        "store_status_str": "",
+        "ceo_no": "1103464024",
+        "map_cood_lat": "37.280491516638",
+        "map_cood_lgt": "127.113503098789"
+      },
+      {
+        "store_nm": "용인김량장",
+        "store_status_str": "",
+        "ceo_no": "1673101117",
+        "map_cood_lat": "37.2339512861635",
+        "map_cood_lgt": "127.198212347459"
+      },
+      {
+        "store_nm": "용인동백",
+        "store_status_str": "",
+        "ceo_no": "2653900738",
+        "map_cood_lat": "37.2808580904347",
+        "map_cood_lgt": "127.154195875399"
+      },
+      {
+        "store_nm": "용인동천",
+        "store_status_str": "",
+        "ceo_no": "2792201306",
+        "map_cood_lat": "37.3379128242174",
+        "map_cood_lgt": "127.092861199241"
+      },
+      {
+        "store_nm": "용인보라",
+        "store_status_str": "",
+        "ceo_no": "3013386326",
+        "map_cood_lat": "37.2440923152221",
+        "map_cood_lgt": "127.105400713129"
+      },
+      {
+        "store_nm": "용인보정",
+        "store_status_str": "",
+        "ceo_no": "1403900856",
+        "map_cood_lat": "37.3201636944219",
+        "map_cood_lgt": "127.108991734129"
+      },
+      {
+        "store_nm": "용인상현",
+        "store_status_str": "",
+        "ceo_no": "8233100751",
+        "map_cood_lat": "37.3082558803283",
+        "map_cood_lgt": "127.084551606807"
+      },
+      {
+        "store_nm": "용인서천지구",
+        "store_status_str": "",
+        "ceo_no": "4011796352",
+        "map_cood_lat": "37.2338633561357",
+        "map_cood_lgt": "127.071977917381"
+      },
+      {
+        "store_nm": "용인성복",
+        "store_status_str": "",
+        "ceo_no": "5951001656",
+        "map_cood_lat": "37.3158893066318",
+        "map_cood_lgt": "127.073564931097"
+      },
+      {
+        "store_nm": "용인양지",
+        "store_status_str": "",
+        "ceo_no": "8900502158",
+        "map_cood_lat": "37.2307662906731",
+        "map_cood_lgt": "127.283792861277"
+      },
+      {
+        "store_nm": "용인유림",
+        "store_status_str": "",
+        "ceo_no": "4753900640",
+        "map_cood_lat": "37.2646931035831",
+        "map_cood_lgt": "127.21551994446"
+      },
+      {
+        "store_nm": "용인죽전1동",
+        "store_status_str": "폐점",
+        "ceo_no": "4962101530",
+        "map_cood_lat": "37.3284925772716",
+        "map_cood_lgt": "127.114980475059"
+      },
+      {
+        "store_nm": "용인풍덕천1호",
+        "store_status_str": "",
+        "ceo_no": "4711800982",
+        "map_cood_lat": "37.3268175341971",
+        "map_cood_lgt": "127.096341196452"
+      },
+      {
+        "store_nm": "용인흥덕지구",
+        "store_status_str": "",
+        "ceo_no": "2375400662",
+        "map_cood_lat": "37.2750619253935",
+        "map_cood_lgt": "127.073766812393"
+      },
+      {
+        "store_nm": "울산구영천상",
+        "store_status_str": "",
+        "ceo_no": "5233900672",
+        "map_cood_lat": "35.5658252721733",
+        "map_cood_lgt": "129.249128544197"
+      },
+      {
+        "store_nm": "울산남목",
+        "store_status_str": "",
+        "ceo_no": "8340301868",
+        "map_cood_lat": "35.5407078300505",
+        "map_cood_lgt": "129.428181860445"
+      },
+      {
+        "store_nm": "울산달동",
+        "store_status_str": "",
+        "ceo_no": "3130761386",
+        "map_cood_lat": "35.535179740727",
+        "map_cood_lgt": "129.324354847143"
+      },
+      {
+        "store_nm": "울산명촌효문",
+        "store_status_str": "",
+        "ceo_no": "6424100786",
+        "map_cood_lat": "35.5553557136185",
+        "map_cood_lgt": "129.356364763218"
+      },
+      {
+        "store_nm": "울산무거",
+        "store_status_str": "",
+        "ceo_no": "8382701022",
+        "map_cood_lat": "35.541137972796",
+        "map_cood_lgt": "129.258825164155"
+      },
+      {
+        "store_nm": "울산병영",
+        "store_status_str": "",
+        "ceo_no": "6642100997",
+        "map_cood_lat": "35.5716751102702",
+        "map_cood_lgt": "129.339983644544"
+      },
+      {
+        "store_nm": "울산삼산",
+        "store_status_str": "",
+        "ceo_no": "8530600269",
+        "map_cood_lat": "35.5442996772611",
+        "map_cood_lgt": "129.340133846837"
+      },
+      {
+        "store_nm": "울산야음",
+        "store_status_str": "",
+        "ceo_no": "8607000268",
+        "map_cood_lat": "35.5237277473251",
+        "map_cood_lgt": "129.330662119575"
+      },
+      {
+        "store_nm": "울산언양",
+        "store_status_str": "",
+        "ceo_no": "8791301365",
+        "map_cood_lat": "35.5654714553024",
+        "map_cood_lgt": "129.126427264979"
+      },
+      {
+        "store_nm": "울산옥동",
+        "store_status_str": "",
+        "ceo_no": "5841600979",
+        "map_cood_lat": "35.5348222055833",
+        "map_cood_lgt": "129.293604614693"
+      },
+      {
+        "store_nm": "울산온산",
+        "store_status_str": "",
+        "ceo_no": "2472001722",
+        "map_cood_lat": "35.438700967661",
+        "map_cood_lgt": "129.309952121444"
+      },
+      {
+        "store_nm": "울산온양",
+        "store_status_str": "",
+        "ceo_no": "5903100297",
+        "map_cood_lat": "35.4106578736083",
+        "map_cood_lgt": "129.288321840283"
+      },
+      {
+        "store_nm": "울산유곡",
+        "store_status_str": "",
+        "ceo_no": "2192043877",
+        "map_cood_lat": "35.5584768441587",
+        "map_cood_lgt": "129.304018054992"
+      },
+      {
+        "store_nm": "울산천곡",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "8430601844",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "울산호계매곡",
+        "store_status_str": "",
+        "ceo_no": "4672400892",
+        "map_cood_lat": "35.6361878362889",
+        "map_cood_lgt": "129.362891510422"
+      },
+      {
+        "store_nm": "울산화봉",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1513600743",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "울산화정",
+        "store_status_str": "",
+        "ceo_no": "5463701006",
+        "map_cood_lat": "35.4987112948401",
+        "map_cood_lgt": "129.422407909815"
+      },
+      {
+        "store_nm": "원주기업도시",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "8633500679",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "원주단계",
+        "store_status_str": "",
+        "ceo_no": "4022697415",
+        "map_cood_lat": "37.3487409294567",
+        "map_cood_lgt": "127.930005274383"
+      },
+      {
+        "store_nm": "원주단구관설",
+        "store_status_str": "",
+        "ceo_no": "6630500510",
+        "map_cood_lat": "37.3290104660145",
+        "map_cood_lgt": "127.959402679638"
+      },
+      {
+        "store_nm": "원주태장",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "3823300967",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "원주혁신도시",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "3525500560",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "월계",
+        "store_status_str": "",
+        "ceo_no": "7263001020",
+        "map_cood_lat": "37.6238343591525",
+        "map_cood_lgt": "127.064778103315"
+      },
+      {
+        "store_nm": "월곡",
+        "store_status_str": "",
+        "ceo_no": "1500802328",
+        "map_cood_lat": "37.6055525158516",
+        "map_cood_lgt": "127.037481642958"
+      },
+      {
+        "store_nm": "음성금왕",
+        "store_status_str": "",
+        "ceo_no": "3101132249",
+        "map_cood_lat": "36.9907413641931",
+        "map_cood_lgt": "127.58473441848"
+      },
+      {
+        "store_nm": "응봉",
+        "store_status_str": "",
+        "ceo_no": "8240301707",
+        "map_cood_lat": "37.5498981545775",
+        "map_cood_lgt": "127.031106220205"
+      },
+      {
+        "store_nm": "응암",
+        "store_status_str": "",
+        "ceo_no": "5051770289",
+        "map_cood_lat": "37.5986184438228",
+        "map_cood_lgt": "126.926703301824"
+      },
+      {
+        "store_nm": "의왕내손",
+        "store_status_str": "",
+        "ceo_no": "4652801345",
+        "map_cood_lat": "37.3880624345884",
+        "map_cood_lgt": "126.983533368601"
+      },
+      {
+        "store_nm": "의왕오전",
+        "store_status_str": "",
+        "ceo_no": "8674800481",
+        "map_cood_lat": "37.3506825569407",
+        "map_cood_lgt": "126.973189534705"
+      },
+      {
+        "store_nm": "의정부가능",
+        "store_status_str": "",
+        "ceo_no": "1074413659",
+        "map_cood_lat": "37.7498742590237",
+        "map_cood_lgt": "127.036996619035"
+      },
+      {
+        "store_nm": "의정부민락",
+        "store_status_str": "",
+        "ceo_no": "8382001611",
+        "map_cood_lat": "37.7462840192881",
+        "map_cood_lgt": "127.094911838099"
+      },
+      {
+        "store_nm": "의정부송산코스트코",
+        "store_status_str": "",
+        "ceo_no": "7286800409",
+        "map_cood_lat": "37.7516974666152",
+        "map_cood_lgt": "127.118065813127"
+      },
+      {
+        "store_nm": "의정부신곡1동",
+        "store_status_str": "",
+        "ceo_no": "3851700914",
+        "map_cood_lat": "37.7317564800302",
+        "map_cood_lgt": "127.057663727156"
+      },
+      {
+        "store_nm": "의정부신곡2동",
+        "store_status_str": "",
+        "ceo_no": "3776800443",
+        "map_cood_lat": "37.7418085942237",
+        "map_cood_lgt": "127.060549461412"
+      },
+      {
+        "store_nm": "의정부역",
+        "store_status_str": "",
+        "ceo_no": "2031373397",
+        "map_cood_lat": "37.7311389806922",
+        "map_cood_lgt": "127.038628662161"
+      },
+      {
+        "store_nm": "의정부호원",
+        "store_status_str": "",
+        "ceo_no": "4361401578",
+        "map_cood_lat": "37.7245975610948",
+        "map_cood_lgt": "127.04356333636"
+      },
+      {
+        "store_nm": "이천중리",
+        "store_status_str": "",
+        "ceo_no": "1623100923",
+        "map_cood_lat": "37.2760236237815",
+        "map_cood_lgt": "127.446777319118"
+      },
+      {
+        "store_nm": "이천증포",
+        "store_status_str": "",
+        "ceo_no": "7895700470",
+        "map_cood_lat": "37.2881751998436",
+        "map_cood_lgt": "127.445274198336"
+      },
+      {
+        "store_nm": "이천하이닉스",
+        "store_status_str": "",
+        "ceo_no": "4350201290",
+        "map_cood_lat": "37.2429540457936",
+        "map_cood_lgt": "127.488278239604"
+      },
+      {
+        "store_nm": "이촌",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "8272701191",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "이태원",
+        "store_status_str": "",
+        "ceo_no": "8580301812",
+        "map_cood_lat": "37.5368846263009",
+        "map_cood_lgt": "126.987089555623"
+      },
+      {
+        "store_nm": "익산동산",
+        "store_status_str": "",
+        "ceo_no": "5302501181",
+        "map_cood_lat": "35.9351020896876",
+        "map_cood_lgt": "126.964360716856"
+      },
+      {
+        "store_nm": "익산모현",
+        "store_status_str": "",
+        "ceo_no": "3032092877",
+        "map_cood_lat": "35.9489144930227",
+        "map_cood_lgt": "126.934692730368"
+      },
+      {
+        "store_nm": "익산부송어양",
+        "store_status_str": "",
+        "ceo_no": "3870801896",
+        "map_cood_lat": "35.9595601392154",
+        "map_cood_lgt": "126.986834009862"
+      },
+      {
+        "store_nm": "익산신동",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1082419172",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "인천가정",
+        "store_status_str": "",
+        "ceo_no": "4772101183",
+        "map_cood_lat": "37.5267617394594",
+        "map_cood_lgt": "126.666267758009"
+      },
+      {
+        "store_nm": "인천가좌",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2162900998",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "인천간석1호",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "7887000326",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "인천검단",
+        "store_status_str": "",
+        "ceo_no": "7465100490",
+        "map_cood_lat": "37.6001474317335",
+        "map_cood_lgt": "126.664469463893"
+      },
+      {
+        "store_nm": "인천검암",
+        "store_status_str": "",
+        "ceo_no": "5594200609",
+        "map_cood_lat": "37.5615670443713",
+        "map_cood_lgt": "126.673497588481"
+      },
+      {
+        "store_nm": "인천계산",
+        "store_status_str": "",
+        "ceo_no": "3422600919",
+        "map_cood_lat": "37.541364410387",
+        "map_cood_lgt": "126.72663822339"
+      },
+      {
+        "store_nm": "인천계양구청",
+        "store_status_str": "",
+        "ceo_no": "8725100770",
+        "map_cood_lat": "37.5396260222098",
+        "map_cood_lgt": "126.737274477167"
+      },
+      {
+        "store_nm": "인천구월1동",
+        "store_status_str": "",
+        "ceo_no": "4941301539",
+        "map_cood_lat": "37.4412196237116",
+        "map_cood_lgt": "126.708611397098"
+      },
+      {
+        "store_nm": "인천남동구청",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "5852001454",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "인천논현1호",
+        "store_status_str": "",
+        "ceo_no": "1323100408",
+        "map_cood_lat": "37.400107921076",
+        "map_cood_lgt": "126.733313310578"
+      },
+      {
+        "store_nm": "인천논현2호",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "5970702137",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "인천당하",
+        "store_status_str": "",
+        "ceo_no": "5841101823",
+        "map_cood_lat": "37.5925835910401",
+        "map_cood_lgt": "126.674980060284"
+      },
+      {
+        "store_nm": "인천동암",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "6553700863",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "인천동춘",
+        "store_status_str": "",
+        "ceo_no": "3574100888",
+        "map_cood_lat": "37.4084167115333",
+        "map_cood_lgt": "126.67060441392"
+      },
+      {
+        "store_nm": "인천만수1호",
+        "store_status_str": "",
+        "ceo_no": "6201873447",
+        "map_cood_lat": "37.4553397295523",
+        "map_cood_lgt": "126.730323981149"
+      },
+      {
+        "store_nm": "인천부개2동",
+        "store_status_str": "",
+        "ceo_no": "1990101873",
+        "map_cood_lat": "37.4973726012449",
+        "map_cood_lgt": "126.737925241704"
+      },
+      {
+        "store_nm": "인천부평1동",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "8678501812",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "인천부평4동",
+        "store_status_str": "",
+        "ceo_no": "1520701750",
+        "map_cood_lat": "37.5048242606512",
+        "map_cood_lgt": "126.7243472859"
+      },
+      {
+        "store_nm": "인천부평6동",
+        "store_status_str": "",
+        "ceo_no": "5840701826",
+        "map_cood_lat": "37.4876585558406",
+        "map_cood_lgt": "126.726692591114"
+      },
+      {
+        "store_nm": "인천산곡2동",
+        "store_status_str": "",
+        "ceo_no": "2263314161",
+        "map_cood_lat": "37.5006308785251",
+        "map_cood_lgt": "126.7054108192"
+      },
+      {
+        "store_nm": "인천삼산2동",
+        "store_status_str": "",
+        "ceo_no": "3633500617",
+        "map_cood_lat": "37.5164682049978",
+        "map_cood_lgt": "126.735189435611"
+      },
+      {
+        "store_nm": "인천서창",
+        "store_status_str": "폐점",
+        "ceo_no": "5646100427",
+        "map_cood_lat": "37.424578201563",
+        "map_cood_lgt": "126.750657125759"
+      },
+      {
+        "store_nm": "인천석남",
+        "store_status_str": "",
+        "ceo_no": "6253900721",
+        "map_cood_lat": "37.512897880256",
+        "map_cood_lgt": "126.672478082572"
+      },
+      {
+        "store_nm": "인천송도",
+        "store_status_str": "",
+        "ceo_no": "5933200600",
+        "map_cood_lat": "37.3878775490068",
+        "map_cood_lgt": "126.664923491885"
+      },
+      {
+        "store_nm": "인천송도랜드마크",
+        "store_status_str": "",
+        "ceo_no": "4522101452",
+        "map_cood_lat": "37.4053561447701",
+        "map_cood_lgt": "126.629221393344"
+      },
+      {
+        "store_nm": "인천송도센트럴",
+        "store_status_str": "",
+        "ceo_no": "4033500614",
+        "map_cood_lat": "37.384773660218",
+        "map_cood_lgt": "126.642622546933"
+      },
+      {
+        "store_nm": "인천숭의",
+        "store_status_str": "",
+        "ceo_no": "1310143289",
+        "map_cood_lat": "37.4643812838877",
+        "map_cood_lgt": "126.657645725303"
+      },
+      {
+        "store_nm": "인천시청",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "3690802107",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "인천연수",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "3920201877",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "인천연희",
+        "store_status_str": "",
+        "ceo_no": "5161001497",
+        "map_cood_lat": "37.5423117956696",
+        "map_cood_lgt": "126.675652617127"
+      },
+      {
+        "store_nm": "인천영종하늘도시",
+        "store_status_str": "",
+        "ceo_no": "6122368840",
+        "map_cood_lat": "37.4888169290512",
+        "map_cood_lgt": "126.564242200555"
+      },
+      {
+        "store_nm": "인천옥련",
+        "store_status_str": "",
+        "ceo_no": "2212025173",
+        "map_cood_lat": "37.4238382714305",
+        "map_cood_lgt": "126.64404820343"
+      },
+      {
+        "store_nm": "인천용현1호",
+        "store_status_str": "",
+        "ceo_no": "5443600402",
+        "map_cood_lat": "37.4520149469249",
+        "map_cood_lgt": "126.64506286268"
+      },
+      {
+        "store_nm": "인천운서역",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "3390401598",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "인천임학",
+        "store_status_str": "",
+        "ceo_no": "6717300276",
+        "map_cood_lat": "37.5470174566676",
+        "map_cood_lgt": "126.742062830156"
+      },
+      {
+        "store_nm": "인천작전",
+        "store_status_str": "",
+        "ceo_no": "7482900423",
+        "map_cood_lat": "37.5266470133386",
+        "map_cood_lgt": "126.729516215042"
+      },
+      {
+        "store_nm": "인천주안1호",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "6271400156",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "인천청라",
+        "store_status_str": "",
+        "ceo_no": "2053091350",
+        "map_cood_lat": "37.536704552202",
+        "map_cood_lgt": "126.642841124664"
+      },
+      {
+        "store_nm": "인천학익",
+        "store_status_str": "",
+        "ceo_no": "1580601751",
+        "map_cood_lat": "37.4401186118019",
+        "map_cood_lgt": "126.669088727023"
+      },
+      {
+        "store_nm": "인천효성",
+        "store_status_str": "",
+        "ceo_no": "7724000703",
+        "map_cood_lat": "37.5276399088436",
+        "map_cood_lgt": "126.701213709529"
+      },
+      {
+        "store_nm": "일산대화",
+        "store_status_str": "",
+        "ceo_no": "7306300353",
+        "map_cood_lat": "37.6787948791849",
+        "map_cood_lgt": "126.754448153917"
+      },
+      {
+        "store_nm": "일산마두",
+        "store_status_str": "",
+        "ceo_no": "6611201786",
+        "map_cood_lat": "37.6548372512809",
+        "map_cood_lgt": "126.78368369707"
+      },
+      {
+        "store_nm": "일산벨라시타",
+        "store_status_str": "",
+        "ceo_no": "2823900484",
+        "map_cood_lat": "37.6440712087641",
+        "map_cood_lgt": "126.792801047835"
+      },
+      {
+        "store_nm": "일산식사",
+        "store_status_str": "",
+        "ceo_no": "6316500443",
+        "map_cood_lat": "37.6787931966924",
+        "map_cood_lgt": "126.812636886841"
+      },
+      {
+        "store_nm": "일산장항2동",
+        "store_status_str": "",
+        "ceo_no": "2461501273",
+        "map_cood_lat": "37.6617083172877",
+        "map_cood_lgt": "126.766899130668"
+      },
+      {
+        "store_nm": "일산중산",
+        "store_status_str": "",
+        "ceo_no": "5273400868",
+        "map_cood_lat": "37.6836907168635",
+        "map_cood_lgt": "126.778579104372"
+      },
+      {
+        "store_nm": "일산킨텍스",
+        "store_status_str": "",
+        "ceo_no": "4360902312",
+        "map_cood_lat": "37.6659415145207",
+        "map_cood_lgt": "126.756744169756"
+      },
+      {
+        "store_nm": "일산탄현",
+        "store_status_str": "",
+        "ceo_no": "1195300654",
+        "map_cood_lat": "37.6895916366633",
+        "map_cood_lgt": "126.763217275889"
+      },
+      {
+        "store_nm": "일산풍산",
+        "store_status_str": "",
+        "ceo_no": "4660102296",
+        "map_cood_lat": "37.6672759099223",
+        "map_cood_lgt": "126.801301982523"
+      },
+      {
+        "store_nm": "일산화정2동",
+        "store_status_str": "폐점",
+        "ceo_no": "1526300460",
+        "map_cood_lat": "37.6276361401817",
+        "map_cood_lgt": "126.829788011679"
+      },
+      {
+        "store_nm": "일원",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "8196300578",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "자양",
+        "store_status_str": "",
+        "ceo_no": "7141801025",
+        "map_cood_lat": "37.537711863986",
+        "map_cood_lgt": "127.081548897452"
+      },
+      {
+        "store_nm": "장안1호",
+        "store_status_str": "",
+        "ceo_no": "6990302134",
+        "map_cood_lat": "37.5843160229219",
+        "map_cood_lgt": "127.068314370152"
+      },
+      {
+        "store_nm": "장안2호",
+        "store_status_str": "",
+        "ceo_no": "6727100372",
+        "map_cood_lat": "37.5652438881592",
+        "map_cood_lgt": "127.067483806252"
+      },
+      {
+        "store_nm": "장위",
+        "store_status_str": "",
+        "ceo_no": "4840701905",
+        "map_cood_lat": "37.6115397951585",
+        "map_cood_lgt": "127.053539803878"
+      },
+      {
+        "store_nm": "전남강진",
+        "store_status_str": "",
+        "ceo_no": "6140736782",
+        "map_cood_lat": "34.6388812977557",
+        "map_cood_lgt": "126.770367928221"
+      },
+      {
+        "store_nm": "전남광양읍",
+        "store_status_str": "",
+        "ceo_no": "8065700488",
+        "map_cood_lat": "34.970612394228",
+        "map_cood_lgt": "127.610379101816"
+      },
+      {
+        "store_nm": "전남나주",
+        "store_status_str": "",
+        "ceo_no": "8065100604",
+        "map_cood_lat": "35.0234014608435",
+        "map_cood_lgt": "126.715594833455"
+      },
+      {
+        "store_nm": "전남담양",
+        "store_status_str": "",
+        "ceo_no": "1374300819",
+        "map_cood_lat": "35.3188406668561",
+        "map_cood_lgt": "126.982613505684"
+      },
+      {
+        "store_nm": "전남무안",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1873300829",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "전남영광",
+        "store_status_str": "",
+        "ceo_no": "8050301889",
+        "map_cood_lat": "35.2782350",
+        "map_cood_lgt": "126.4997253"
+      },
+      {
+        "store_nm": "전남완도",
+        "store_status_str": "",
+        "ceo_no": "5555500534",
+        "map_cood_lat": "34.3211302994071",
+        "map_cood_lgt": "126.742378293311"
+      },
+      {
+        "store_nm": "전남진도",
+        "store_status_str": "",
+        "ceo_no": "6760101915",
+        "map_cood_lat": "34.4784421532173",
+        "map_cood_lgt": "126.262925664578"
+      },
+      {
+        "store_nm": "전남해남",
+        "store_status_str": "",
+        "ceo_no": "4302300802",
+        "map_cood_lat": "34.5763084267391",
+        "map_cood_lgt": "126.593732296388"
+      },
+      {
+        "store_nm": "전남화순",
+        "store_status_str": "",
+        "ceo_no": "8070702179",
+        "map_cood_lat": "35.0616863062617",
+        "map_cood_lgt": "126.990842210127"
+      },
+      {
+        "store_nm": "전북고창",
+        "store_status_str": "",
+        "ceo_no": "8017500380",
+        "map_cood_lat": "35.4344524756184",
+        "map_cood_lgt": "126.710255593022"
+      },
+      {
+        "store_nm": "전북김제",
+        "store_status_str": "",
+        "ceo_no": "6294500699",
+        "map_cood_lat": "35.8030333126719",
+        "map_cood_lgt": "126.904411428891"
+      },
+      {
+        "store_nm": "전북남원",
+        "store_status_str": "",
+        "ceo_no": "6380801630",
+        "map_cood_lat": "35.416353119099",
+        "map_cood_lgt": "127.397303030567"
+      },
+      {
+        "store_nm": "전북부안",
+        "store_status_str": "",
+        "ceo_no": "3192601373",
+        "map_cood_lat": "35.7251835852207",
+        "map_cood_lgt": "126.736562821078"
+      },
+      {
+        "store_nm": "전북정읍",
+        "store_status_str": "",
+        "ceo_no": "6365300479",
+        "map_cood_lat": "35.5600071207631",
+        "map_cood_lgt": "126.868489505059"
+      },
+      {
+        "store_nm": "전북진안",
+        "store_status_str": "",
+        "ceo_no": "4935800197",
+        "map_cood_lat": "35.791599523295",
+        "map_cood_lgt": "127.427715285061"
+      },
+      {
+        "store_nm": "전주삼천",
+        "store_status_str": "",
+        "ceo_no": "2592300974",
+        "map_cood_lat": "35.7984707222909",
+        "map_cood_lgt": "127.11153375146"
+      },
+      {
+        "store_nm": "전주서신",
+        "store_status_str": "",
+        "ceo_no": "2296300362",
+        "map_cood_lat": "35.8258270217691",
+        "map_cood_lgt": "127.114464170823"
+      },
+      {
+        "store_nm": "전주송천",
+        "store_status_str": "",
+        "ceo_no": "8113300640",
+        "map_cood_lat": "35.8634680623132",
+        "map_cood_lgt": "127.125072868622"
+      },
+      {
+        "store_nm": "전주신시가지",
+        "store_status_str": "",
+        "ceo_no": "4202301143",
+        "map_cood_lat": "35.8168185304265",
+        "map_cood_lgt": "127.11153052678"
+      },
+      {
+        "store_nm": "전주아중",
+        "store_status_str": "",
+        "ceo_no": "6140647183",
+        "map_cood_lat": "35.8281961017793",
+        "map_cood_lgt": "127.163336565721"
+      },
+      {
+        "store_nm": "전주에코시티",
+        "store_status_str": "",
+        "ceo_no": "5527100379",
+        "map_cood_lat": "35.8723077718627",
+        "map_cood_lgt": "127.126925117121"
+      },
+      {
+        "store_nm": "전주여의반월",
+        "store_status_str": "",
+        "ceo_no": "1740601637",
+        "map_cood_lat": "35.8743147314902",
+        "map_cood_lgt": "127.071549409212"
+      },
+      {
+        "store_nm": "전주전북대",
+        "store_status_str": "",
+        "ceo_no": "5764300479",
+        "map_cood_lat": "35.8399542622699",
+        "map_cood_lgt": "127.138667270991"
+      },
+      {
+        "store_nm": "전주평화",
+        "store_status_str": "",
+        "ceo_no": "7612800768",
+        "map_cood_lat": "35.786524232516",
+        "map_cood_lgt": "127.132540855574"
+      },
+      {
+        "store_nm": "전주하가지구",
+        "store_status_str": "",
+        "ceo_no": "8390401012",
+        "map_cood_lat": "35.8436212583229",
+        "map_cood_lgt": "127.111030078294"
+      },
+      {
+        "store_nm": "전주혁신도시",
+        "store_status_str": "",
+        "ceo_no": "2670601735",
+        "map_cood_lat": "35.8380941926585",
+        "map_cood_lgt": "127.059650042816"
+      },
+      {
+        "store_nm": "정릉1호",
+        "store_status_str": "",
+        "ceo_no": "6154700689",
+        "map_cood_lat": "37.6088803",
+        "map_cood_lgt": "127.0159484"
+      },
+      {
+        "store_nm": "제주강정",
+        "store_status_str": "",
+        "ceo_no": "8510800632",
+        "map_cood_lat": "33.2344529125478",
+        "map_cood_lgt": "126.488279929114"
+      },
+      {
+        "store_nm": "제주건입",
+        "store_status_str": "",
+        "ceo_no": "1905500720",
+        "map_cood_lat": "33.5135349960154",
+        "map_cood_lgt": "126.535102290484"
+      },
+      {
+        "store_nm": "제주대",
+        "store_status_str": "",
+        "ceo_no": "6162085516",
+        "map_cood_lat": "33.4489282855156",
+        "map_cood_lgt": "126.55911981049"
+      },
+      {
+        "store_nm": "제주대정",
+        "store_status_str": "",
+        "ceo_no": "8261600081",
+        "map_cood_lat": "33.2183336199233",
+        "map_cood_lgt": "126.251784236004"
+      },
+      {
+        "store_nm": "제주삼화",
+        "store_status_str": "",
+        "ceo_no": "4485300469",
+        "map_cood_lat": "33.5147856554107",
+        "map_cood_lgt": "126.57571585273"
+      },
+      {
+        "store_nm": "제주서귀",
+        "store_status_str": "",
+        "ceo_no": "8050400849",
+        "map_cood_lat": "33.256189276655",
+        "map_cood_lgt": "126.572286744587"
+      },
+      {
+        "store_nm": "제주아라",
+        "store_status_str": "",
+        "ceo_no": "8354600608",
+        "map_cood_lat": "33.4726565117577",
+        "map_cood_lgt": "126.549769199455"
+      },
+      {
+        "store_nm": "제주애월하귀",
+        "store_status_str": "",
+        "ceo_no": "7971100982",
+        "map_cood_lat": "33.4813338268767",
+        "map_cood_lgt": "126.404863674364"
+      },
+      {
+        "store_nm": "제주연동",
+        "store_status_str": "",
+        "ceo_no": "1702901390",
+        "map_cood_lat": "33.4919425083747",
+        "map_cood_lgt": "126.487879260418"
+      },
+      {
+        "store_nm": "제주영어교육도시",
+        "store_status_str": "",
+        "ceo_no": "1582501131",
+        "map_cood_lat": "33.2806767259828",
+        "map_cood_lgt": "126.278197801801"
+      },
+      {
+        "store_nm": "제주이도",
+        "store_status_str": "",
+        "ceo_no": "1111862301",
+        "map_cood_lat": "33.4870326037761",
+        "map_cood_lgt": "126.532900326428"
+      },
+      {
+        "store_nm": "제주이호",
+        "store_status_str": "",
+        "ceo_no": "4590502317",
+        "map_cood_lat": "33.4906887864982",
+        "map_cood_lgt": "126.457544368751"
+      },
+      {
+        "store_nm": "제주일도",
+        "store_status_str": "",
+        "ceo_no": "5046396527",
+        "map_cood_lat": "33.5019929977784",
+        "map_cood_lgt": "126.538453550508"
+      },
+      {
+        "store_nm": "제주중문",
+        "store_status_str": "",
+        "ceo_no": "2052738786",
+        "map_cood_lat": "33.2525784999479",
+        "map_cood_lgt": "126.423470393966"
+      },
+      {
+        "store_nm": "제주터미널",
+        "store_status_str": "",
+        "ceo_no": "8454500855",
+        "map_cood_lat": "33.5013893806364",
+        "map_cood_lgt": "126.513749555612"
+      },
+      {
+        "store_nm": "제주표선",
+        "store_status_str": "",
+        "ceo_no": "1330690478",
+        "map_cood_lat": "33.3253208148377",
+        "map_cood_lgt": "126.836353914561"
+      },
+      {
+        "store_nm": "제주한라대",
+        "store_status_str": "",
+        "ceo_no": "4550102393",
+        "map_cood_lat": "33.4761549347479",
+        "map_cood_lgt": "126.477731871722"
+      },
+      {
+        "store_nm": "제주한림협재",
+        "store_status_str": "",
+        "ceo_no": "3057008900",
+        "map_cood_lat": "33.4143484499746",
+        "map_cood_lgt": "126.266543047881"
+      },
+      {
+        "store_nm": "제주함덕",
+        "store_status_str": "",
+        "ceo_no": "1983900632",
+        "map_cood_lat": "33.5395382739097",
+        "map_cood_lgt": "126.670336323601"
+      },
+      {
+        "store_nm": "제천청전",
+        "store_status_str": "",
+        "ceo_no": "5091002130",
+        "map_cood_lat": "37.1476593079065",
+        "map_cood_lgt": "128.211824524755"
+      },
+      {
+        "store_nm": "중계",
+        "store_status_str": "",
+        "ceo_no": "8861801446",
+        "map_cood_lat": "37.6498727518917",
+        "map_cood_lgt": "127.08120814435"
+      },
+      {
+        "store_nm": "중곡",
+        "store_status_str": "",
+        "ceo_no": "4104053656",
+        "map_cood_lat": "37.5636783449059",
+        "map_cood_lgt": "127.083376394541"
+      },
+      {
+        "store_nm": "중화",
+        "store_status_str": "",
+        "ceo_no": "4051053958",
+        "map_cood_lat": "37.5939956436071",
+        "map_cood_lgt": "127.075008982696"
+      },
+      {
+        "store_nm": "진관",
+        "store_status_str": "",
+        "ceo_no": "5765300482",
+        "map_cood_lat": "37.6401763040591",
+        "map_cood_lgt": "126.920021198076"
+      },
+      {
+        "store_nm": "진주가좌",
+        "store_status_str": "",
+        "ceo_no": "2667500286",
+        "map_cood_lat": "35.1559219758634",
+        "map_cood_lgt": "128.108472057358"
+      },
+      {
+        "store_nm": "진주중앙",
+        "store_status_str": "",
+        "ceo_no": "8457100271",
+        "map_cood_lat": "35.1954510579286",
+        "map_cood_lgt": "128.080083373274"
+      },
+      {
+        "store_nm": "진주칠암",
+        "store_status_str": "",
+        "ceo_no": "2014500773",
+        "map_cood_lat": "35.1854082496202",
+        "map_cood_lgt": "128.085885648586"
+      },
+      {
+        "store_nm": "진주평거",
+        "store_status_str": "",
+        "ceo_no": "3861101248",
+        "map_cood_lat": "35.1718903734194",
+        "map_cood_lgt": "128.065882769919"
+      },
+      {
+        "store_nm": "진주하대",
+        "store_status_str": "",
+        "ceo_no": "2966000551",
+        "map_cood_lat": "35.1909416130148",
+        "map_cood_lgt": "128.122320951811"
+      },
+      {
+        "store_nm": "진주혁신도시",
+        "store_status_str": "",
+        "ceo_no": "3274900786",
+        "map_cood_lat": "35.1700747859812",
+        "map_cood_lgt": "128.145825690064"
+      },
+      {
+        "store_nm": "진해남문",
+        "store_status_str": "",
+        "ceo_no": "2280964866",
+        "map_cood_lat": "35.1055835433954",
+        "map_cood_lgt": "128.751472177473"
+      },
+      {
+        "store_nm": "진해석동",
+        "store_status_str": "",
+        "ceo_no": "2031722090",
+        "map_cood_lat": "35.1497166552691",
+        "map_cood_lgt": "128.699609728148"
+      },
+      {
+        "store_nm": "진해용원",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4252701224",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "진해화천",
+        "store_status_str": "",
+        "ceo_no": "8502200620",
+        "map_cood_lat": "35.1517358308033",
+        "map_cood_lgt": "128.662793593121"
+      },
+      {
+        "store_nm": "창2동",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4560102886",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "창4동",
+        "store_status_str": "",
+        "ceo_no": "8541801226",
+        "map_cood_lat": "37.6527826596167",
+        "map_cood_lgt": "127.049911855219"
+      },
+      {
+        "store_nm": "창원가음정",
+        "store_status_str": "",
+        "ceo_no": "1947900164",
+        "map_cood_lat": "35.2136412917111",
+        "map_cood_lgt": "128.7004397736"
+      },
+      {
+        "store_nm": "창원감계",
+        "store_status_str": "",
+        "ceo_no": "8902500973",
+        "map_cood_lat": "35.3015385600357",
+        "map_cood_lgt": "128.593616586402"
+      },
+      {
+        "store_nm": "창원대방",
+        "store_status_str": "",
+        "ceo_no": "4992301004",
+        "map_cood_lat": "35.203823379544",
+        "map_cood_lgt": "128.71166519026"
+      },
+      {
+        "store_nm": "창원도계명곡",
+        "store_status_str": "",
+        "ceo_no": "2022578669",
+        "map_cood_lat": "35.257809519033",
+        "map_cood_lgt": "128.634736530527"
+      },
+      {
+        "store_nm": "창원봉곡",
+        "store_status_str": "",
+        "ceo_no": "1712701012",
+        "map_cood_lat": "35.2445088110955",
+        "map_cood_lgt": "128.650107341274"
+      },
+      {
+        "store_nm": "창원상남",
+        "store_status_str": "",
+        "ceo_no": "1862900931",
+        "map_cood_lat": "35.2231117355416",
+        "map_cood_lgt": "128.681780666678"
+      },
+      {
+        "store_nm": "창원용호",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "7580301735",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "창원팔용",
+        "store_status_str": "",
+        "ceo_no": "5090761046",
+        "map_cood_lat": "35.2601823112532",
+        "map_cood_lgt": "128.625885123793"
+      },
+      {
+        "store_nm": "천안두정",
+        "store_status_str": "",
+        "ceo_no": "7680201526",
+        "map_cood_lat": "36.8321830087984",
+        "map_cood_lgt": "127.137043049487"
+      },
+      {
+        "store_nm": "천안백석",
+        "store_status_str": "",
+        "ceo_no": "1735300148",
+        "map_cood_lat": "36.8235787440792",
+        "map_cood_lgt": "127.118818162952"
+      },
+      {
+        "store_nm": "천안불당",
+        "store_status_str": "",
+        "ceo_no": "1263400549",
+        "map_cood_lat": "36.8130061408921",
+        "map_cood_lgt": "127.1045945918"
+      },
+      {
+        "store_nm": "천안성정",
+        "store_status_str": "",
+        "ceo_no": "5690502176",
+        "map_cood_lat": "36.8217403233183",
+        "map_cood_lgt": "127.143846396494"
+      },
+      {
+        "store_nm": "천안신방",
+        "store_status_str": "",
+        "ceo_no": "1193900959",
+        "map_cood_lat": "36.7754404206428",
+        "map_cood_lgt": "127.134877519748"
+      },
+      {
+        "store_nm": "천안신부",
+        "store_status_str": "",
+        "ceo_no": "1874500730",
+        "map_cood_lat": "36.8171147411881",
+        "map_cood_lgt": "127.159536008938"
+      },
+      {
+        "store_nm": "천안쌍용",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "7890202712",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "천안직산",
+        "store_status_str": "",
+        "ceo_no": "3730501799",
+        "map_cood_lat": "36.8797414885933",
+        "map_cood_lgt": "127.154498365815"
+      },
+      {
+        "store_nm": "천안차암",
+        "store_status_str": "",
+        "ceo_no": "4564100754",
+        "map_cood_lat": "36.8392253232139",
+        "map_cood_lgt": "127.102431038912"
+      },
+      {
+        "store_nm": "천안청당",
+        "store_status_str": "",
+        "ceo_no": "2453001045",
+        "map_cood_lat": "36.7822539892139",
+        "map_cood_lgt": "127.154050175337"
+      },
+      {
+        "store_nm": "천호",
+        "store_status_str": "",
+        "ceo_no": "7714100764",
+        "map_cood_lat": "37.544937417577",
+        "map_cood_lgt": "127.128472512309"
+      },
+      {
+        "store_nm": "철원동송",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2181219364",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "철원와수",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1271430790",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "청룡",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "8035600629",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "청주가경강서",
+        "store_status_str": "",
+        "ceo_no": "4173200548",
+        "map_cood_lat": "36.6267576234514",
+        "map_cood_lgt": "127.428886010123"
+      },
+      {
+        "store_nm": "청주교대",
+        "store_status_str": "",
+        "ceo_no": "8156400137",
+        "map_cood_lat": "36.6181003646762",
+        "map_cood_lgt": "127.486435844906"
+      },
+      {
+        "store_nm": "청주금천",
+        "store_status_str": "",
+        "ceo_no": "6710601915",
+        "map_cood_lat": "36.6385333976612",
+        "map_cood_lgt": "127.511371662238"
+      },
+      {
+        "store_nm": "청주내덕우암",
+        "store_status_str": "",
+        "ceo_no": "3060494398",
+        "map_cood_lat": "36.6521016822959",
+        "map_cood_lgt": "127.489200611179"
+      },
+      {
+        "store_nm": "청주복대",
+        "store_status_str": "",
+        "ceo_no": "3178801604",
+        "map_cood_lat": "36.6390895947238",
+        "map_cood_lgt": "127.435247789925"
+      },
+      {
+        "store_nm": "청주봉명",
+        "store_status_str": "",
+        "ceo_no": "7053301174",
+        "map_cood_lat": "36.6500709711996",
+        "map_cood_lgt": "127.457903402671"
+      },
+      {
+        "store_nm": "청주성화",
+        "store_status_str": "",
+        "ceo_no": "6960302474",
+        "map_cood_lat": "36.6159407621674",
+        "map_cood_lgt": "127.450887255124"
+      },
+      {
+        "store_nm": "청주용암",
+        "store_status_str": "",
+        "ceo_no": "8687900305",
+        "map_cood_lat": "36.6151412606441",
+        "map_cood_lgt": "127.507981822635"
+      },
+      {
+        "store_nm": "청주율량사천",
+        "store_status_str": "",
+        "ceo_no": "7991301166",
+        "map_cood_lat": "36.6700613298401",
+        "map_cood_lgt": "127.491287854298"
+      },
+      {
+        "store_nm": "청주충북대",
+        "store_status_str": "",
+        "ceo_no": "5323100928",
+        "map_cood_lat": "36.632187786203",
+        "map_cood_lgt": "127.460783054826"
+      },
+      {
+        "store_nm": "춘천석사",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4955600452",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "춘천시청",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "5525300507",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "춘천신사우",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "5601701756",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "춘천퇴계",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2890401973",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "춘천후평",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4192200962",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "충남계룡",
+        "store_status_str": "",
+        "ceo_no": "2043891431",
+        "map_cood_lat": "36.2906118915349",
+        "map_cood_lgt": "127.243051227776"
+      },
+      {
+        "store_nm": "충남공주",
+        "store_status_str": "",
+        "ceo_no": "6820501198",
+        "map_cood_lat": "36.4725555873135",
+        "map_cood_lgt": "127.137184391445"
+      },
+      {
+        "store_nm": "충남내포신도시",
+        "store_status_str": "",
+        "ceo_no": "1540802543",
+        "map_cood_lat": "36.6604327656871",
+        "map_cood_lgt": "126.680929119485"
+      },
+      {
+        "store_nm": "충남논산",
+        "store_status_str": "",
+        "ceo_no": "7241900243",
+        "map_cood_lat": "36.1798929152011",
+        "map_cood_lgt": "127.105012662184"
+      },
+      {
+        "store_nm": "충남당진",
+        "store_status_str": "",
+        "ceo_no": "5071701231",
+        "map_cood_lat": "36.8908258271762",
+        "map_cood_lgt": "126.636516765493"
+      },
+      {
+        "store_nm": "충남보령",
+        "store_status_str": "",
+        "ceo_no": "4321401708",
+        "map_cood_lat": "36.3413403728714",
+        "map_cood_lgt": "126.605914309086"
+      },
+      {
+        "store_nm": "충남부여",
+        "store_status_str": "",
+        "ceo_no": "7861601837",
+        "map_cood_lat": "36.2836253774702",
+        "map_cood_lgt": "126.917682307419"
+      },
+      {
+        "store_nm": "충남예산",
+        "store_status_str": "",
+        "ceo_no": "4061901228",
+        "map_cood_lat": "36.6913573030968",
+        "map_cood_lgt": "126.832773764034"
+      },
+      {
+        "store_nm": "충남태안",
+        "store_status_str": "",
+        "ceo_no": "6241101378",
+        "map_cood_lat": "36.745317897132",
+        "map_cood_lgt": "126.305070131525"
+      },
+      {
+        "store_nm": "충남홍성",
+        "store_status_str": "",
+        "ceo_no": "6342601364",
+        "map_cood_lat": "36.5914964558164",
+        "map_cood_lgt": "126.671013441908"
+      },
+      {
+        "store_nm": "충북보은",
+        "store_status_str": "",
+        "ceo_no": "1331704809",
+        "map_cood_lat": "36.4824264945285",
+        "map_cood_lgt": "127.717471828405"
+      },
+      {
+        "store_nm": "충북오송",
+        "store_status_str": "",
+        "ceo_no": "6085102537",
+        "map_cood_lat": "36.6302489023387",
+        "map_cood_lgt": "127.330959094971"
+      },
+      {
+        "store_nm": "충북오창",
+        "store_status_str": "",
+        "ceo_no": "5581400132",
+        "map_cood_lat": "36.7113750548986",
+        "map_cood_lgt": "127.427670505475"
+      },
+      {
+        "store_nm": "충북옥천",
+        "store_status_str": "",
+        "ceo_no": "8461601463",
+        "map_cood_lat": "36.3008152138631",
+        "map_cood_lgt": "127.568545683898"
+      },
+      {
+        "store_nm": "충북증평",
+        "store_status_str": "",
+        "ceo_no": "3102909535",
+        "map_cood_lat": "36.7855324372292",
+        "map_cood_lgt": "127.583316759817"
+      },
+      {
+        "store_nm": "충북진천",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1874100649",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "충북혁신도시",
+        "store_status_str": "",
+        "ceo_no": "4580102029",
+        "map_cood_lat": "36.9044359872471",
+        "map_cood_lgt": "127.535043086369"
+      },
+      {
+        "store_nm": "충주연수",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "3541901285",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "충주호암",
+        "store_status_str": "",
+        "ceo_no": "6164000378",
+        "map_cood_lat": "36.9557156006681",
+        "map_cood_lgt": "127.938692875936"
+      },
+      {
+        "store_nm": "칠곡오태북삼",
+        "store_status_str": "",
+        "ceo_no": "4726400380",
+        "map_cood_lat": "36.0697694505619",
+        "map_cood_lgt": "128.336285381132"
+      },
+      {
+        "store_nm": "태백상장",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4963300908",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "통영북신",
+        "store_status_str": "",
+        "ceo_no": "7021501114",
+        "map_cood_lat": "34.8578652214045",
+        "map_cood_lgt": "128.425310182348"
+      },
+      {
+        "store_nm": "통영죽림",
+        "store_status_str": "",
+        "ceo_no": "8072000898",
+        "map_cood_lat": "34.8773832013265",
+        "map_cood_lgt": "128.420757860759"
+      },
+      {
+        "store_nm": "파주교하신도시",
+        "store_status_str": "",
+        "ceo_no": "1330978285",
+        "map_cood_lat": "37.7236674012058",
+        "map_cood_lgt": "126.718873530973"
+      },
+      {
+        "store_nm": "파주금촌",
+        "store_status_str": "폐점",
+        "ceo_no": "1485400469",
+        "map_cood_lat": "37.7568937784698",
+        "map_cood_lgt": "126.773366997538"
+      },
+      {
+        "store_nm": "파주문산",
+        "store_status_str": "",
+        "ceo_no": "3541401714",
+        "map_cood_lat": "37.8679926155489",
+        "map_cood_lgt": "126.784350497259"
+      },
+      {
+        "store_nm": "파주야당역",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2842601553",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "파주와동",
+        "store_status_str": "",
+        "ceo_no": "4130767531",
+        "map_cood_lat": "37.7341077327994",
+        "map_cood_lgt": "126.752120814898"
+      },
+      {
+        "store_nm": "파주운정",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2271060510",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "평택고덕",
+        "store_status_str": "",
+        "ceo_no": "5053300823",
+        "map_cood_lat": "37.0515203",
+        "map_cood_lgt": "127.0475581"
+      },
+      {
+        "store_nm": "평택동삭",
+        "store_status_str": "",
+        "ceo_no": "3075300682",
+        "map_cood_lat": "37.0172167069211",
+        "map_cood_lgt": "127.094121344903"
+      },
+      {
+        "store_nm": "평택비전",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "3584300395",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "평택세교",
+        "store_status_str": "",
+        "ceo_no": "5672001096",
+        "map_cood_lat": "36.9988319466513",
+        "map_cood_lgt": "127.080669752229"
+      },
+      {
+        "store_nm": "평택소사벌",
+        "store_status_str": "",
+        "ceo_no": "7955600444",
+        "map_cood_lat": "37.0054235726022",
+        "map_cood_lgt": "127.102782009332"
+      },
+      {
+        "store_nm": "평택송탄",
+        "store_status_str": "",
+        "ceo_no": "6010705388",
+        "map_cood_lat": "37.0565646213934",
+        "map_cood_lgt": "127.058230473083"
+      },
+      {
+        "store_nm": "평택안중",
+        "store_status_str": "",
+        "ceo_no": "8760501527",
+        "map_cood_lat": "36.9824396338599",
+        "map_cood_lgt": "126.915726169377"
+      },
+      {
+        "store_nm": "평택용이",
+        "store_status_str": "",
+        "ceo_no": "3216900544",
+        "map_cood_lat": "36.9941724917325",
+        "map_cood_lgt": "127.136166770875"
+      },
+      {
+        "store_nm": "평택지산신장",
+        "store_status_str": "",
+        "ceo_no": "2943500626",
+        "map_cood_lat": "37.0756261579666",
+        "map_cood_lgt": "127.055441623211"
+      },
+      {
+        "store_nm": "평택팽성",
+        "store_status_str": "",
+        "ceo_no": "4862900879",
+        "map_cood_lat": "36.9634086048604",
+        "map_cood_lgt": "127.057935768924"
+      },
+      {
+        "store_nm": "평택포승",
+        "store_status_str": "",
+        "ceo_no": "7421201498",
+        "map_cood_lat": "36.9899330777159",
+        "map_cood_lgt": "126.845229854784"
+      },
+      {
+        "store_nm": "포천소흘",
+        "store_status_str": "",
+        "ceo_no": "3691601272",
+        "map_cood_lat": "37.8249990349078",
+        "map_cood_lgt": "127.140802228283"
+      },
+      {
+        "store_nm": "포항남부",
+        "store_status_str": "",
+        "ceo_no": "2251852306",
+        "map_cood_lat": "36.0211901483917",
+        "map_cood_lgt": "129.363700688897"
+      },
+      {
+        "store_nm": "포항문덕",
+        "store_status_str": "",
+        "ceo_no": "2622901200",
+        "map_cood_lat": "35.9676389142703",
+        "map_cood_lgt": "129.403572967048"
+      },
+      {
+        "store_nm": "포항시청",
+        "store_status_str": "",
+        "ceo_no": "4162192466",
+        "map_cood_lat": "36.018830847261",
+        "map_cood_lgt": "129.341812184619"
+      },
+      {
+        "store_nm": "포항양덕",
+        "store_status_str": "",
+        "ceo_no": "8190501688",
+        "map_cood_lat": "36.0896714056286",
+        "map_cood_lgt": "129.388576169015"
+      },
+      {
+        "store_nm": "포항영일대",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "5151460808",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "포항초곡",
+        "store_status_str": "",
+        "ceo_no": "5136900240",
+        "map_cood_lat": "36.0941111480761",
+        "map_cood_lgt": "129.338761143482"
+      },
+      {
+        "store_nm": "하계",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "7051701873",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "하계",
+        "store_status_str": "폐점",
+        "ceo_no": "4041595421",
+        "map_cood_lat": "37.6398521168624",
+        "map_cood_lgt": "127.073920463419"
+      },
+      {
+        "store_nm": "하남감일",
+        "store_status_str": "",
+        "ceo_no": "1021552185",
+        "map_cood_lat": "37.5097054377703",
+        "map_cood_lgt": "127.162121104499"
+      },
+      {
+        "store_nm": "하남덕풍",
+        "store_status_str": "",
+        "ceo_no": "4925400541",
+        "map_cood_lat": "37.5498641696147",
+        "map_cood_lgt": "127.198920507768"
+      },
+      {
+        "store_nm": "하남미사망월",
+        "store_status_str": "",
+        "ceo_no": "6140794058",
+        "map_cood_lat": "37.5692018156284",
+        "map_cood_lgt": "127.18320377259"
+      },
+      {
+        "store_nm": "하남미사역",
+        "store_status_str": "",
+        "ceo_no": "3154900560",
+        "map_cood_lat": "37.5637612084486",
+        "map_cood_lgt": "127.189620532746"
+      },
+      {
+        "store_nm": "하남신장",
+        "store_status_str": "",
+        "ceo_no": "4235200459",
+        "map_cood_lat": "37.5433708225577",
+        "map_cood_lgt": "127.211086530287"
+      },
+      {
+        "store_nm": "합정",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "7392101311",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "홍제",
+        "store_status_str": "",
+        "ceo_no": "7593900757",
+        "map_cood_lat": "37.5958396935418",
+        "map_cood_lgt": "126.949136420758"
+      },
+      {
+        "store_nm": "화곡역",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4260301560",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "화성동탄1동",
+        "store_status_str": "",
+        "ceo_no": "8841200925",
+        "map_cood_lat": "37.2085169394614",
+        "map_cood_lgt": "127.063657719885"
+      },
+      {
+        "store_nm": "화성동탄2동",
+        "store_status_str": "",
+        "ceo_no": "8466900247",
+        "map_cood_lat": "37.1942083848298",
+        "map_cood_lgt": "127.074677098586"
+      },
+      {
+        "store_nm": "화성동탄8동",
+        "store_status_str": "",
+        "ceo_no": "4731101969",
+        "map_cood_lat": "37.158394361929",
+        "map_cood_lgt": "127.107355547357"
+      },
+      {
+        "store_nm": "화성동탄호수공원",
+        "store_status_str": "",
+        "ceo_no": "3420202089",
+        "map_cood_lat": "37.168718051251",
+        "map_cood_lgt": "127.108730059719"
+      },
+      {
+        "store_nm": "화성병점1호",
+        "store_status_str": "",
+        "ceo_no": "2684300618",
+        "map_cood_lat": "37.213793487255",
+        "map_cood_lgt": "127.040766167085"
+      },
+      {
+        "store_nm": "화성병점2호",
+        "store_status_str": "",
+        "ceo_no": "4070721049",
+        "map_cood_lat": "37.2047889849774",
+        "map_cood_lgt": "127.03788520402"
+      },
+      {
+        "store_nm": "화성봉담1호",
+        "store_status_str": "",
+        "ceo_no": "7497600245",
+        "map_cood_lat": "37.216100831339",
+        "map_cood_lgt": "126.952530971889"
+      },
+      {
+        "store_nm": "화성봉담2지구",
+        "store_status_str": "",
+        "ceo_no": "7412501419",
+        "map_cood_lat": "37.2239495790206",
+        "map_cood_lgt": "126.94737067002"
+      },
+      {
+        "store_nm": "화성송산신도시",
+        "store_status_str": "",
+        "ceo_no": "5212800909",
+        "map_cood_lat": "37.2865067453959",
+        "map_cood_lgt": "126.815828693025"
+      },
+      {
+        "store_nm": "화성시청",
+        "store_status_str": "",
+        "ceo_no": "5380301539",
+        "map_cood_lat": "37.2087018076301",
+        "map_cood_lgt": "126.831050068859"
+      },
+      {
+        "store_nm": "화성향남1호",
+        "store_status_str": "",
+        "ceo_no": "1084388272",
+        "map_cood_lat": "37.1172276749651",
+        "map_cood_lgt": "126.91458561768"
+      },
+      {
+        "store_nm": "화성향남2호",
+        "store_status_str": "",
+        "ceo_no": "6111304714",
+        "map_cood_lat": "37.1304525933534",
+        "map_cood_lgt": "126.915483546942"
+      },
+      {
+        "store_nm": "화천사내",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "4151012615",
+        "map_cood_lat": null,
+        "map_cood_lgt": null
+      },
+      {
+        "store_nm": "흑석",
+        "store_status_str": "폐점",
+        "ceo_no": "8696400449",
+        "map_cood_lat": "37.5096317962488",
+        "map_cood_lgt": "126.962204212791"
+      }
+    ],
+    "total_count": 729
+  }
+}
