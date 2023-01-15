@@ -77,7 +77,7 @@ export default function Home() {
     // 지도 변경 버튼
     if (!mapRef.current) return
     naver.maps.Event.once(mapRef.current, 'init', () => {
-      mapChangeButtonRef.current = new naver.maps.CustomControl(MapChangeButton(), {
+      mapChangeButtonRef.current = new naver.maps.CustomControl(MapChangeButton(router.pathname), {
         position: naver.maps.Position.TOP_RIGHT
       })
       mapChangeButtonRef.current.setMap(mapRef.current)
@@ -94,7 +94,7 @@ export default function Home() {
     if (!elements) return
     elements.map((element) => {
       naver.maps.Event.addDOMListener(element, 'click', () => {
-        router.push(element.id)
+        router.push(`map/${element.id}`)
       })
     })
   }

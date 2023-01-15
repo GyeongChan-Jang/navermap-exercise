@@ -2,12 +2,11 @@ import { useRouter } from 'next/router'
 import React, { useEffect, useRef } from 'react'
 import { MapChangeButton } from '../../components/MapChangeButton'
 
-const FlagAnalysis = () => {
+const Ranking = () => {
   const mapRef = useRef<any>(null)
   const mapChangeButtonRef = useRef<any | null>(null)
 
   const router = useRouter()
-  console.log(router)
 
   // 지도 띄우기
   useEffect(() => {
@@ -47,4 +46,4 @@ const FlagAnalysis = () => {
   return <div style={{ width: '80vw', height: '100vh' }} ref={mapRef} id="map"></div>
 }
 
-export default FlagAnalysis
+export default Ranking
