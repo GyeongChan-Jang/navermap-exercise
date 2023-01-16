@@ -1,0 +1,151 @@
+{
+  "code": "200",
+  "status": true,
+  "message": "공통 가맹점목록 조회 성공",
+  "details": "",
+  "data": {
+    "results": [
+      {
+        "store_nm": "123123",
+        "store_status_str": "폐점",
+        "ceo_no": "2121212121",
+        "map_cood_lat": "37.566652",
+        "map_cood_lgt": "126.978410"
+      },
+      {
+        "store_nm": "histotest",
+        "store_status_str": "폐점",
+        "ceo_no": "1472589633",
+        "map_cood_lat": "37.566652",
+        "map_cood_lgt": "126.978410"
+      },
+      {
+        "store_nm": "test123",
+        "store_status_str": "폐점",
+        "ceo_no": "1234878185",
+        "map_cood_lat": "37.566652",
+        "map_cood_lgt": "126.978410"
+      },
+      {
+        "store_nm": "강동미사점",
+        "store_status_str": "",
+        "ceo_no": "8062501375",
+        "map_cood_lat": "37.5583540269033",
+        "map_cood_lgt": "127.177832623849"
+      },
+      {
+        "store_nm": "경성밥상_선유도점",
+        "store_status_str": "폐점",
+        "ceo_no": "1234567890",
+        "map_cood_lat": "37.566652",
+        "map_cood_lgt": "126.978410"
+      },
+      {
+        "store_nm": "고속터미널점",
+        "store_status_str": "",
+        "ceo_no": "2572401601",
+        "map_cood_lat": "37.5050455005061",
+        "map_cood_lgt": "127.006705761057"
+      },
+      {
+        "store_nm": "공덕점",
+        "store_status_str": "",
+        "ceo_no": "4694000957",
+        "map_cood_lat": "37.5445849310546",
+        "map_cood_lgt": "126.95276773044"
+      },
+      {
+        "store_nm": "논현점",
+        "store_status_str": "",
+        "ceo_no": "7171401759",
+        "map_cood_lat": "37.5183736063237",
+        "map_cood_lgt": "127.031669123036"
+      },
+      {
+        "store_nm": "석촌호수점",
+        "store_status_str": "",
+        "ceo_no": "6522101557",
+        "map_cood_lat": "37.5053784024543",
+        "map_cood_lgt": "127.104735837676"
+      },
+      {
+        "store_nm": "성남모란점",
+        "store_status_str": "",
+        "ceo_no": "7450702376",
+        "map_cood_lat": "37.4293719257619",
+        "map_cood_lgt": "127.128406046228"
+      },
+      {
+        "store_nm": "성정두정점",
+        "store_status_str": "",
+        "ceo_no": "8210102436",
+        "map_cood_lat": "36.8252748368623",
+        "map_cood_lgt": "127.137675688061"
+      },
+      {
+        "store_nm": "신림점",
+        "store_status_str": "",
+        "ceo_no": "4171094762",
+        "map_cood_lat": "37.4821891975395",
+        "map_cood_lgt": "126.910863694271"
+      },
+      {
+        "store_nm": "역삼점",
+        "store_status_str": "",
+        "ceo_no": "1568501328",
+        "map_cood_lat": "37.491333196360245",
+        "map_cood_lgt": "127.035098961611"
+      },
+      {
+        "store_nm": "천안불당점",
+        "store_status_str": "",
+        "ceo_no": "7342900477",
+        "map_cood_lat": "36.8111552171712",
+        "map_cood_lgt": "127.1066716118"
+      },
+      {
+        "store_nm": "태릉입구역점",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "2841701852",
+        "map_cood_lat": "37.566652",
+        "map_cood_lgt": "126.978410"
+      },
+      {
+        "store_nm": "테강동미사점(폐점)",
+        "store_status_str": "폐점",
+        "ceo_no": "6900402153",
+        "map_cood_lat": "37.5583540269033",
+        "map_cood_lgt": "127.177832623849"
+      },
+      {
+        "store_nm": "테경성밥상2",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1111999900",
+        "map_cood_lat": "37.566652",
+        "map_cood_lgt": "126.978410"
+      },
+      {
+        "store_nm": "테스트매장_경성",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1234123411",
+        "map_cood_lat": "37.566652",
+        "map_cood_lgt": "126.978410"
+      },
+      {
+        "store_nm": "테스트용도",
+        "store_status_str": "데이터 수집중",
+        "ceo_no": "1568501321",
+        "map_cood_lat": "37.566652",
+        "map_cood_lgt": "126.978410"
+      },
+      {
+        "store_nm": "화곡점",
+        "store_status_str": "",
+        "ceo_no": "4528801682",
+        "map_cood_lat": "37.5356322155285",
+        "map_cood_lgt": "126.860989669224"
+      }
+    ],
+    "total_count": 20
+  }
+}
