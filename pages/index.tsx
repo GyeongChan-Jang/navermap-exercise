@@ -20,8 +20,6 @@ export interface storeInfo {
 
 export default function Home() {
   const router = useRouter()
-  console.log(PuradakData)
-  console.log(MapSample)
 
   const mapRef = useRef<HTMLElement | any | null>(null)
   const markerRef = useRef<naver.maps.Marker | null>(null)
@@ -102,9 +100,21 @@ export default function Home() {
     })
   }
 
+  const updateMarkers = (map: naver.maps.Map, markers: naver.maps.Marker[]) => {
+    const mapBounds = map.getBounds()
+    markers.map((marker) => {
+      if (mapBounds.hasPoint(marker.getPosition())) {
+        marker.setMap(map)
+      } else {
+        marker.setMap(null)
+      }
+    })
+  }
+
   // 마커 띄우기
   useEffect(() => {
-    PuradakData.data.results.map((item: storeInfo) => {
+    let markers: naver.maps.Marker[] = []
+    markers = PuradakData.data.results.map((item: storeInfo) => {
       markerRef.current = new naver.maps.Marker({
         position: new naver.maps.LatLng(+item.map_cood_lat!, +item.map_cood_lgt!),
         map: mapRef.current,
@@ -117,8 +127,14 @@ export default function Home() {
 
       // 데이터에 marker 속성을 만들고 생성된 마커 객체를 넣어줌
       item.marker = markerRef.current
+      return markerRef.current
     })
-  }, [])
+
+    // 마커가 업데이트 될 때마다 실행
+    naver.maps.Event.addListener(mapRef.current, 'idle', () => {
+      updateMarkers(mapRef.current, markers)
+    })
+  }, [mapRef])
 
   return (
     <>
