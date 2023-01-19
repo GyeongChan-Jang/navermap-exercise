@@ -8,6 +8,7 @@ import screenStyles from '../public/styles/screenLayout.module.css'
 import { MapChangeButton } from '../components/MapChangeButton'
 import { useRouter } from 'next/router'
 import PuradakData from '../puradakData.json'
+import { GraphInfoWindow } from '../components/GraphInfoWindow'
 
 export interface storeInfo {
   store_nm: string
@@ -57,6 +58,8 @@ export default function Home() {
 
         selectedMarker.current = marker
         // mapRef.current.updateBy(mapLatLng, 15)
+
+        graphInfoWindow(marker, item)
       }
     })
   }
@@ -135,6 +138,27 @@ export default function Home() {
       updateMarkers(mapRef.current, markers)
     })
   }, [mapRef])
+
+  // 겹침 마커 처리
+  useEffect(() => {
+    const markers: naver.maps.Marker[] = PuradakData.data.results.map((item: storeInfo) => item.marker)
+    // new naver.maps.MarkerClustering({
+
+    // })
+  })
+
+  // 그래프 인포윈도우 띄우기
+  const graphInfoWindow = (marker: naver.maps.Marker, item: storeInfo) => {
+    const infoWindow = new naver.maps.InfoWindow({
+      content: GraphInfoWindow(),
+      backgroundColor: 'transparent',
+      borderColor: 'transparent',
+      anchorSize: new naver.maps.Size(0, 0),
+      anchorSkew: true,
+      pixelOffset: new naver.maps.Point(0, -30)
+    })
+    infoWindow.open(mapRef.current, marker)
+  }
 
   return (
     <>
