@@ -9,6 +9,7 @@ import { MapChangeButton } from '../components/MapChangeButton'
 import { useRouter } from 'next/router'
 import PuradakData from '../puradakData.json'
 import { GraphInfoWindow } from '../components/GraphInfoWindow'
+import { Chart } from 'chart.js/auto'
 
 export interface storeInfo {
   store_nm: string
@@ -142,15 +143,12 @@ export default function Home() {
   // 겹침 마커 처리
   useEffect(() => {
     const markers: naver.maps.Marker[] = PuradakData.data.results.map((item: storeInfo) => item.marker)
-    // new naver.maps.MarkerClustering({
-
-    // })
   })
 
   // 그래프 인포윈도우 띄우기
   const graphInfoWindow = (marker: naver.maps.Marker, item: storeInfo) => {
     const infoWindow = new naver.maps.InfoWindow({
-      content: GraphInfoWindow(),
+      content: GraphInfoWindow(item),
       backgroundColor: 'transparent',
       borderColor: 'transparent',
       anchorSize: new naver.maps.Size(0, 0),
@@ -158,6 +156,40 @@ export default function Home() {
       pixelOffset: new naver.maps.Point(0, -30)
     })
     infoWindow.open(mapRef.current, marker)
+
+    new Chart(document.getElementById('myChart') as HTMLCanvasElement, {
+      type: 'bar',
+      data: {
+        labels: ['월', '화', '수', '목', '금', '토', '일'],
+        datasets: [
+          {
+            label: '매출',
+            data: [12, 19, 3, 5, 2, 3, 1],
+            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+            borderColor: 'rgba(255, 99, 132, 1)',
+            borderWidth: 1
+          }
+        ]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    })
+
+    // 인포윈도우 닫기
+    const closeBtn = document?.getElementById('close')
+    naver.maps.Event.addDOMListener(closeBtn!, 'click', () => {
+      infoWindow.close()
+    })
+
+    // 맵을 클릭하면 인포윈도우 닫기
+    naver.maps.Event.addListener(mapRef.current, 'click', () => {
+      infoWindow.close()
+    })
   }
 
   return (
