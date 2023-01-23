@@ -1,7 +1,7 @@
-import { storeInfo } from './../../pages/index'
-import markerStyles from './../../public/styles/marker.module.css'
+import { StoreInfoType } from '..'
+import markerStyles from 'public/styles/marker.module.css'
 
-export const SelectedMainMarker = (item: storeInfo) => {
+export const SelectedMainMarker = (item: StoreInfoType) => {
   return /* html */ `
 <div
 class=${markerStyles.selectedBubbleMarker}

@@ -1,10 +1,7 @@
-import styles from '../public/styles/graphicInfoWindow.module.css'
-import { renderToStaticMarkup } from 'react-dom/server'
-import { renderToString } from 'react-dom/server'
-import Chart from 'chart.js/auto'
-import { storeInfo } from '../pages'
+import styles from 'public/styles/graphicInfoWindow.module.css'
+import { StoreInfoType } from '..'
 
-export const GraphInfoWindow = (item: storeInfo) => {
+export const GraphInfoWindow = (item: StoreInfoType) => {
   console.log(item)
   return /* html */ `
   <div class=${styles.container}>

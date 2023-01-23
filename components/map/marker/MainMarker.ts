@@ -1,5 +1,4 @@
-import { storeInfo } from '../../pages'
-import markerStyles from '../../public/styles/marker.module.css'
+import markerStyles from 'public/styles/marker.module.css'
 
 export const MainMarker = (item: string) => {
   return /* html */ `

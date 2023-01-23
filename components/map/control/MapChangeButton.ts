@@ -1,4 +1,4 @@
-import control from '../public/styles/mapChangeButton.module.css'
+import control from 'public/styles/mapChangeButton.module.css'
 
 export const MapChangeButton = (pathname: string) => {
   return /* html */ ` 
