@@ -11,7 +11,18 @@ export default function Document() {
           type="text/javascript"
           src={`https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${process.env.NEXT_PUBLIC_NAVER_MAP_CLIENT_ID}`}
         ></Script>
-        <Script type="text/javascript" src="../marker-tools/MarkerOverlappingRecognizer.js"></Script>
+        {/* <Script
+          strategy="beforeInteractive"
+          src="https://code.jquery.com/jquery-1.12.4.min.js"
+          integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+          onLoad={() => console.log('jquery loaded')}
+        ></Script> */}
+        {/* <Script
+          type="text/javascript"
+          strategy="beforeInteractive"
+          src={'/src/MarkerOverlappingRecognizer.js'}
+          onLoad={() => console.log('MarkerOverlappingRecognizer.js loaded')}
+        ></Script> */}
       </Head>
       <body>
         <Main />

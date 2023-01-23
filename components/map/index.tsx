@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { useCallback, useEffect, useRef, useState } from 'react'
-import PuradakData from '../../puradakData.json'
+import PuradakData from 'public/data/PuradakData.json'
 import screenStyles from '../../public/styles/screenLayout.module.css'
 import { useRouter } from 'next/router'
 import { Chart } from 'chart.js/auto'
@@ -8,6 +8,7 @@ import { MainMarker } from '../../components/map/marker/MainMarker'
 import { SelectedMainMarker } from '../../components/map/marker/SelectedMainMarker'
 import { MapChangeButton } from './control/MapChangeButton'
 import { GraphInfoWindow } from '../../components/map/info-window/GraphInfoWindow'
+import { MarkerOverlappingRecognizer } from '@/src/MarkerOverlappingRecognizer'
 
 export interface StoreInfoType {
   store_nm: string
@@ -80,6 +81,13 @@ export default function FCMap({ mapRef }: FCMapProps) {
       mapDataControl: false
     })
 
+    // 겹침 마커 처리
+    let recognizer = new MarkerOverlappingRecognizer({
+      highlightRect: false,
+      tolerance: 5
+    })
+    console.log(recognizer)
+
     // 지도 변경 버튼
     if (!mapRef.current) return
     naver.maps.Event.once(mapRef.current, 'init', () => {
@@ -106,9 +114,9 @@ export default function FCMap({ mapRef }: FCMapProps) {
   }
 
   const updateMarkers = (map: naver.maps.Map, markers: naver.maps.Marker[]) => {
-    const mapBounds = map.getBounds()
+    const mapBounds = map?.getBounds()
     markers.map((marker) => {
-      if (mapBounds.hasPoint(marker.getPosition())) {
+      if (mapBounds?.hasPoint(marker.getPosition())) {
         marker.setMap(map)
       } else {
         marker.setMap(null)
@@ -153,8 +161,7 @@ export default function FCMap({ mapRef }: FCMapProps) {
       backgroundColor: 'transparent',
       borderColor: 'transparent',
       anchorSize: new naver.maps.Size(0, 0),
-      anchorSkew: true,
-      pixelOffset: new naver.maps.Point(0, -30)
+      pixelOffset: new naver.maps.Point(12, -50)
     })
     infoWindow.open(mapRef.current, marker)
 
