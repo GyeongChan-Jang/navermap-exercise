@@ -8,7 +8,6 @@ import { MainMarker } from '../../components/map/marker/MainMarker'
 import { SelectedMainMarker } from '../../components/map/marker/SelectedMainMarker'
 import { MapChangeButton } from './control/MapChangeButton'
 import { GraphInfoWindow } from '../../components/map/info-window/GraphInfoWindow'
-import { MarkerOverlappingRecognizer } from '@/src/MarkerOverlappingRecognizer'
 
 export interface StoreInfoType {
   store_nm: string
@@ -81,12 +80,7 @@ export default function FCMap({ mapRef }: FCMapProps) {
       mapDataControl: false
     })
 
-    // 겹침 마커 처리
-    let recognizer = new MarkerOverlappingRecognizer({
-      highlightRect: false,
-      tolerance: 5
-    })
-    console.log(recognizer)
+    // recognizer.setMap(mapRef.current)
 
     // 지도 변경 버튼
     if (!mapRef.current) return
@@ -140,6 +134,8 @@ export default function FCMap({ mapRef }: FCMapProps) {
 
       // 데이터에 marker 속성을 만들고 생성된 마커 객체를 넣어줌
       item.marker = markerRef.current
+
+      // recognizer.add(markerRef.current)
       return markerRef.current
     })
 
@@ -150,9 +146,9 @@ export default function FCMap({ mapRef }: FCMapProps) {
   }, [mapRef])
 
   // 겹침 마커 처리
-  useEffect(() => {
-    const markers: naver.maps.Marker[] = PuradakData.data.results.map((item: StoreInfoType) => item.marker)
-  })
+  // useEffect(() => {
+  //   const markers: naver.maps.Marker[] = PuradakData.data.results.map((item: StoreInfoType) => item.marker)
+  // })
 
   // 그래프 인포윈도우 띄우기
   const graphInfoWindow = (marker: naver.maps.Marker, item: StoreInfoType) => {

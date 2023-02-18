@@ -3,7 +3,7 @@
     "baseUrl": "",
     "paths": {
       "@/components/*": ["components/*"],
-      "@/src/*": ["src/*"]
+      "@/src/*": ["public/src/*"]
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -20,6 +20,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
   "exclude": ["node_modules"]
 }

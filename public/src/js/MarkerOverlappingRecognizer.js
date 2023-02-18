@@ -14,9 +14,7 @@
  * limitations under the License.
  */
 
-import $ from 'jquery'
-
-export var MarkerOverlappingRecognizer = function (opts) {
+var MarkerOverlappingRecognizer = function (opts) {
   this._options = $.extend(
     {
       tolerance: 5,
